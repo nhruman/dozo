@@ -1,0 +1,412 @@
+/* =========================================================
+   Mottainai Connect - Navbar
+   ---------------------------------------------------------
+   このファイルはナビゲーションだけを管理します。
+   ========================================================= */
+
+
+/* =========================
+   Header
+   ========================= */
+
+.main-header {
+    background:
+        linear-gradient(
+            180deg,
+            #040b16 0%,
+            #081a2c 100%
+        );
+    border-bottom: 1px solid rgba(111, 220, 58, 0.18);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+
+/* =========================
+   Header Container
+   ========================= */
+
+.header-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    gap: 24px;
+
+    /* Logo কে একদম left-এর কাছে রাখবে */
+    padding: 10px 16px 10px 10px;
+}
+
+
+/* =========================
+   Logo
+   ========================= */
+
+.main-header .logo {
+    display: flex;
+    align-items: center;
+
+    flex-shrink: 0;
+
+    margin: 0;
+    padding: 0;
+}
+
+.main-header .logo img {
+    display: block;
+
+    height: 42px;
+    width: auto;
+
+    object-fit: contain;
+}
+
+
+/* =========================
+   Navbar
+   ========================= */
+
+.navbar {
+    flex: 1;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    min-width: 0;
+}
+
+
+/* =========================
+   Center Navigation
+   ========================= */
+
+.nav-center {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    gap: 28px;
+}
+
+.nav-center a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 600;
+    border: 1px solid rgb(255, 240, 79);
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.05);
+    transition: background-color 0.2s ease, 
+                color 0.2s ease, 
+                border-color 0.2s ease,
+}
+
+.nav-center a:hover {
+    color: white;
+    border-color: #d5d5d5;
+}
+
+
+/* =========================
+   Right Navigation
+   ========================= */
+
+.nav-right {
+    margin-left: auto;
+
+    display: flex;
+    align-items: center;
+
+    gap: 14px;
+}
+
+
+/* =========================
+   Login
+   ========================= */
+
+.nav-login {
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 8px 12px;
+    border: 1px solid transparent;
+    border-radius: 6px;
+    transition: border-color 0.2s ease;
+}
+
+.nav-login:hover {
+    color: #fff;
+    background: transparent;
+    border-color: #ffffff;
+}
+
+
+/* =========================
+   Language
+   ========================= */
+
+.lang-buttons {
+    display: flex;
+    align-items: center;
+
+    gap: 8px;
+}
+
+.btn-lang {
+    background: transparent;
+
+    color: #fff;
+
+    border: 1px solid rgba(255, 255, 255, 0.35);
+
+    padding: 7px 14px;
+
+    border-radius: 999px;
+
+    font-size: 1rem;
+    font-weight: 600;
+
+    cursor: pointer;
+
+    transition: 0.2s ease;
+}
+
+.btn-lang:hover {
+    background: rgba(255, 255, 255, 0.12);
+}
+
+
+/* =========================
+   Language Dropdown
+   ========================= */
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown-content {
+    display: none;
+
+    position: absolute;
+
+    top: calc(100% + 8px);
+    right: 0;
+
+    min-width: 180px;
+
+    background: #081a2c;
+
+    border: 1px solid rgba(255, 255, 255, 0.15);
+
+    border-radius: 10px;
+
+    padding: 8px;
+
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.4);
+
+    z-index: 200;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content button {
+    display: block;
+
+    width: 100%;
+
+    padding: 8px 10px;
+
+    border: none;
+
+    background: transparent;
+
+    color: #fff;
+
+    text-align: left;
+
+    cursor: pointer;
+
+    border-radius: 6px;
+}
+
+.dropdown-content button:hover {
+    background: rgba(111, 220, 58, 0.12);
+
+    color: #6fdc3a;
+}
+
+
+/* =========================
+   Filter Button
+   ========================= */
+
+.filter-button {
+    background: transparent;
+
+    color: #fff;
+
+    border: 1px solid rgba(255, 255, 255, 0.35);
+
+    padding: 7px 14px;
+
+    border-radius: 8px;
+
+    cursor: pointer;
+}
+
+.filter-button:hover {
+    border-color: #6fdc3a;
+    color: #6fdc3a;
+}
+
+
+/* =========================
+   Mobile Menu Button
+   ========================= */
+
+.menu-toggle {
+    display: none;
+
+    background: transparent;
+
+    border: none;
+
+    color: #fff;
+
+    font-size: 1.3rem;
+
+    cursor: pointer;
+}
+
+
+/* =========================
+   Mobile Navigation
+   ========================= */
+
+.mobile-nav {
+    display: none;
+
+    background: #081a2c;
+
+    border-top: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.mobile-nav a {
+    display: block;
+
+    padding: 14px 20px;
+
+    color: #fff;
+
+    text-decoration: none;
+
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.mobile-nav a:hover {
+    color: #6fdc3a;
+}
+
+
+/* for response  */
+/* =========================================================
+   Responsive Navbar
+   ========================================================= */
+
+/* Tablet */
+@media (max-width: 900px) {
+
+    .header-container {
+        padding: 10px 16px;
+    }
+
+    /* Desktop navigation hide */
+    .nav-center {
+        display: none;
+    }
+
+    /* Login / language / filter */
+    .nav-right {
+        gap: 10px;
+    }
+
+    /* Mobile menu button show */
+    .menu-toggle {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+
+        width: 40px;
+        height: 40px;
+
+        background: transparent;
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        border-radius: 8px;
+
+        color: #fff;
+        cursor: pointer;
+    }
+
+    .menu-toggle:hover {
+        border-color: #6fdc3a;
+        color: #6fdc3a;
+    }
+}
+
+
+/* =========================================================
+   Mobile
+   ========================================================= */
+
+@media (max-width: 620px) {
+
+    .header-container {
+        padding: 8px 12px;
+    }
+
+    /* Logo ছোট করা */
+    .main-header .logo img {
+        height: 36px;
+    }
+
+    /* Desktop language buttons hide */
+    .lang-buttons {
+        display: none;
+    }
+
+    /* Filter hide */
+    .filter-button {
+        display: none;
+    }
+
+    /* Login ছোট করা */
+    .nav-login {
+        font-size: 0.85rem;
+    }
+
+    /* Mobile menu */
+    .mobile-nav {
+        display: none;
+    }
+
+    .mobile-nav.open {
+        display: block;
+    }
+}

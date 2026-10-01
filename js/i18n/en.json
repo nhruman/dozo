@@ -1,0 +1,16 @@
+{
+    "nav.give": "Give / Sell",
+    "nav.receive": "Receive / Buy",
+    "nav.login": "Login",
+
+    "cat.electronics": "Electronics & Gadgets",
+    "cat.clothing": "Clothing & Accessories",
+    "cat.books": "Books & Educational Materials",
+    "cat.household": "Household & Kitchenware",
+    "cat.toys": "Toys & Baby Gear",
+    "cat.furniture": "Home Decor & Furniture",
+    "cat.bedding": "Bedding & Home Textiles",
+    "cat.sports": "Sports & Fitness Gear",
+    "cat.hobby": "Hobby & Craft Supplies",
+    "cat.gardening": "Indoor Plants & Gardening Items"
+}

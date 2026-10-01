@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="ja" id="html-tag">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title id="page-title">Mottainai Connect - 卒業制作</title>
+<meta name="description" content="Mottainai Connect - 日本で暮らす外国人・留学生のための「あげる・もらう」たすけあいサービス">
+
+<!-- Font Awesome (既存のまま) -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+<!-- Google Fonts: 見出し用に丸みのある親しみやすい書体、本文用に多言語対応の書体を使用 -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@500;700;900&family=Noto+Sans+JP:wght@400;500;700&family=Noto+Sans+Bengali:wght@400;500;700&family=Noto+Sans+Devanagari:wght@400;500;700&family=Noto+Sans+SC:wght@400;500;700&family=Noto+Sans:wght@400;500;700&family=Noto+Sans+Tamil:wght@400;500;700&family=Noto+Sans+Myanmar:wght@400;500;700&family=Noto+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/navbar.css">
+<link rel="stylesheet" href="css/filter.css">
+<link rel="stylesheet" href="css/category.css">
+<link rel="stylesheet" href="css/product-card.css">
+</head>
+<body>
+    
+    <!-- Shared header is inserted by js/components.js -->
+    <div id="site-header"></div>
+<!-- ==========================================================
+     ヒーロー / 検索セクション
+     ========================================================== -->
+<section class="hero-section">
+    <div class="hero-shape" aria-hidden="true"></div>
+    <div class="container hero-inner">
+
+        <h1 class="hero-title" id="hero-title" data-i18n="hero.title" data-i18n-html="true">
+            近所の いらないもの・無料のものを探す
+        </h1>
+        <p class="hero-subtitle" id="hero-subtitle" data-i18n="hero.subtitle" data-i18n-html="true">
+            日本で家具を すてる・もらうのが簡単になります。
+        </p>
+
+        <form class="search-box" id="search-form">
+            <button type="button" class="location-button" id="location-button">
+                <i class="fa-solid fa-location-dot"></i>
+            </button>
+            <input type="text" id="search-input" class="search-input" data-i18n-placeholder="hero.searchPlaceholder" placeholder="郵便番号を入力（例：160-0022）">
+            <button type="submit" class="btn-search" id="btn-search" aria-label="検索">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <span class="sr-only"data-i18n="hero.searchBtn">検索</span>
+            </button>
+        </form>
+
+        <div class="hero-stats">
+            <div class="hero-stat">
+                <span class="hero-stat-num">1,200+</span>
+                <span class="hero-stat-label" data-i18n="hero.stat1">やりとりされたアイテム</span>
+            </div>
+            <div class="hero-stat">
+                <span class="hero-stat-num">5</span>
+                <span class="hero-stat-label" data-i18n="hero.stat2">対応言語</span>
+            </div>
+            <div class="hero-stat">
+                <span class="hero-stat-num">300<span class="yen">円</span></span>
+                <span class="hero-stat-label" data-i18n="hero.stat3">ボランティア謝礼</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- hero-section shesh -->
+
+<!-- ===== Category section (NEW) ===== -->
+<section class="category-section" id="categories">
+    <nav class="cat-tabs" aria-label="Categories">
+        <a href="#cat-electronics" data-i18n="cat.electronics">Electronics & Gadgets</a>
+        <a href="#cat-clothing" data-i18n="cat.clothing">Clothing & Accessories</a>
+        <a href="#cat-books" data-i18n="cat.books">Books & Educational Materials</a>
+        <a href="#cat-household" data-i18n="cat.household">Household & Kitchenware</a>
+        <a href="#cat-toy" data-i18n="cat.toys">Toys & Baby Gear</a>
+        <a href="#cat-furniture" data-i18n="cat.furniture">Home Decor & Furniture</a>
+        <a href="#cat-bedding" data-i18n="cat.bedding">Bedding & Home Textiles</a>
+        <a href="#cat-sports" data-i18n="cat.sports">Sports & Fitness Gear</a>
+        <a href="#cat-hobby" data-i18n="cat.hobby">Hobby & Craft Supplies</a>
+        <a href="#cat-indoor" data-i18n="cat.gardening">Indoor Plants & Gardening Items</a>
+    </nav>
+
+    <div class="container cat-grid">
+        <a href="category.html?c=electronics" class="cat-card" id="cat-electronics">
+            <h3 class="cat-title" data-i18n="cat.electronics">Electronics</h3>
+            <img src="images/cat-electronics.jpg" alt="Electronics" loading="lazy">
+        </a>
+        <!-- baki card gulo same structure e copy koro -->
+    </div>
+</section>
+
+<!-- ===== Product section ===== -->
+
+<section class="products-section">
+        <h2>Electronics & Gadgets</h2>
+        <div class="product-grid" id="electronics-products">
+        </div>
+</section>
+
+
+<!-- ==========================================================
+     メインアクション（あげる／もらう）
+     ========================================================== -->
+<section class="action-section">
+    <div class="container">
+        <div class="action-grid">
+
+            <a href="give-item.html" class="btn-action btn-give">
+                <span class="action-icon"><i class="fa-solid fa-hand-holding-heart"></i></span>
+                <span class="action-body">
+                    <span class="action-text" data-i18n="actions.giveTitle">ものをあげる／売る</span>
+                    <span class="action-desc" data-i18n="actions.giveDesc">使わなくなったものを写真つきで簡単に出品</span>
+                </span>
+                <i class="fa-solid fa-arrow-right action-arrow"></i>
+            </a>
+
+            <a href="receive-item.html" class="btn-action btn-receive">
+                <span class="action-icon"><i class="fa-solid fa-box-open"></i></span>
+                <span class="action-body">
+                    <span class="action-text" data-i18n="actions.receiveTitle">ものをもらう／買う</span>
+                    <span class="action-desc" data-i18n="actions.receiveDesc">欲しいものと予算を伝えてリクエスト</span>
+                </span>
+                <i class="fa-solid fa-arrow-right action-arrow"></i>
+            </a>
+
+        </div>
+    </div>
+</section>
+
+<!-- ==========================================================
+     使い方セクション（①探す→②連絡する→③受け取る）
+     ========================================================== -->
+<section class="how-section" id="how">
+    <div class="container">
+        <h2 class="section-title" data-i18n="how.title">使い方はとてもシンプルです</h2>
+        <div class="how-grid">
+            <div class="how-step">
+                <span class="how-num">1</span>
+                <i class="fa-solid fa-magnifying-glass how-icon"></i>
+                <h3 data-i18n="how.step1Title">探す</h3>
+                <p data-i18n="how.step1Desc">郵便番号や地域から、近くのアイテムを探します。</p>
+            </div>
+            <div class="how-connector" aria-hidden="true"><i class="fa-solid fa-chevron-right"></i></div>
+            <div class="how-step">
+                <span class="how-num">2</span>
+                <i class="fa-solid fa-comments how-icon"></i>
+                <h3 data-i18n="how.step2Title">連絡する</h3>
+                <p data-i18n="how.step2Desc">出品者やリクエストした人にメッセージを送ります。</p>
+            </div>
+            <div class="how-connector" aria-hidden="true"><i class="fa-solid fa-chevron-right"></i></div>
+            <div class="how-step">
+                <span class="how-num">3</span>
+                <i class="fa-solid fa-people-carry-box how-icon"></i>
+                <h3 data-i18n="how.step3Title">受け取る</h3>
+                <p data-i18n="how.step3Desc">自分で取りに行くか、ボランティアにお願いします。</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ==========================================================
+     近くのアイテム
+     ========================================================== -->
+<main class="container products-section">
+    <h2 class="section-heading">
+        <i class="fa-solid fa-map-pin pin-icon"></i>
+        <span id="section-heading" data-i18n="products.heading">いまいる場所から 5km のもの</span>
+    </h2>
+
+    <div class="products-grid">
+
+        <article class="product-card">
+            <div class="card-image-box">
+                <img src="https://images.unsplash.com/photo-1592078615290-033ee584e267?q=80&w=400" alt="木製ソファ" class="product-image" loading="lazy">
+                <span class="badge badge-free" data-i18n="p1.badge">無料</span>
+            </div>
+            <div class="card-body">
+                <div class="card-info">
+                    <h3 class="product-title" data-i18n="p1.title">木製のリラックスソファ</h3>
+                    <p class="product-meta"><i class="fa-solid fa-location-dot"></i> <span data-i18n="p1.location">新宿区</span> ・ <span data-i18n="p1.distance">1.2 km</span></p>
+                </div>
+                <div class="card-footer">
+                    <span class="volunteer-badge"><i class="fa-solid fa-user-shield"></i> <span data-i18n="common.volunteerOk">ボランティア利用可</span></span>
+                    <button class="btn-take" data-i18n="p1.btn">欲しい</button>
+                </div>
+            </div>
+        </article>
+
+        <article class="product-card">
+            <div class="card-image-box">
+                <img src="https://images.unsplash.com/photo-1485965120184-e220f721d03e?q=80&w=400" alt="ミニ自転車" class="product-image" loading="lazy">
+                <span class="badge badge-price">¥1,500</span>
+            </div>
+            <div class="card-body">
+                <div class="card-info">
+                    <h3 class="product-title" data-i18n="p2.title">ミニ自転車（状態良好）</h3>
+                    <p class="product-meta"><i class="fa-solid fa-location-dot"></i> <span data-i18n="p2.location">渋谷区</span> ・ <span data-i18n="p2.distance">3.5 km</span></p>
+                </div>
+                <div class="card-footer">
+                    <span class="volunteer-badge"><i class="fa-solid fa-user-shield"></i> <span data-i18n="common.volunteerOk">ボランティア利用可</span></span>
+                    <button class="btn-take" data-i18n="p2.btn">連絡する</button>
+                </div>
+            </div>
+        </article>
+
+        <article class="product-card">
+            <div class="card-image-box">
+                <img src="https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?q=80&w=400" alt="電子レンジ" class="product-image" loading="lazy">
+                <span class="badge badge-free" data-i18n="p1.badge">無料</span>
+            </div>
+            <div class="card-body">
+                <div class="card-info">
+                    <h3 class="product-title" data-i18n="p3.title">電子レンジ（動作確認済み）</h3>
+                    <p class="product-meta"><i class="fa-solid fa-location-dot"></i> <span data-i18n="p3.location">江東区</span> ・ <span data-i18n="p3.distance">4.0 km</span></p>
+                </div>
+                <div class="card-footer">
+                    <span class="volunteer-badge"><i class="fa-solid fa-user-shield"></i> <span data-i18n="common.volunteerOk">ボランティア利用可</span></span>
+                    <button class="btn-take" data-i18n="p1.btn">欲しい</button>
+                </div>
+            </div>
+        </article>
+
+    </div>
+</main>
+
+<!-- ==========================================================
+     ボランティアセクション
+     ========================================================== -->
+<section class="volunteer-section">
+    <div class="container volunteer-inner">
+        <div class="volunteer-icon"><i class="fa-solid fa-hands-holding-circle"></i></div>
+        <div class="volunteer-text">
+            <h2 data-i18n="volunteer.title">自分で取りに行くのが難しいときは？</h2>
+            <p data-i18n="volunteer.body">「ボランティアサービス」を選ぶと、地域のサポーターが代わりに荷物を受け取り、あなたまで届けてくれます。</p>
+            <p class="volunteer-bonus"><i class="fa-solid fa-coins"></i> <span data-i18n="volunteer.bonus">お礼はたったの300円から。サポーターにも感謝を伝えられます。</span></p>
+            <button class="btn-cta-volunteer" data-i18n="volunteer.cta">ボランティアを依頼する</button>
+        </div>
+    </div>
+</section>
+
+<!-- ==========================================================
+     Mottainai Connectとは？ / 統計
+     ========================================================== -->
+<section class="about-section" id="about">
+    <div class="container">
+        <h2 class="section-title" data-i18n="about.title">Mottainai Connectとは？</h2>
+        <p class="about-body" data-i18n="about.body">日本で暮らす外国人・留学生が、引っ越しや帰国のときに困る「不要品の処分」と「生活用品の入手」を、地域の「あげる・もらう」の輪でつなぐサービスです。ことば・地域・慣習の違いがあっても、安心して物のやりとりができる場所を目指しています。</p>
+
+        <div class="stats-grid">
+            <div class="stat-card">
+                <i class="fa-solid fa-couch stat-icon"></i>
+                <span class="stat-num">3,400+</span>
+                <span class="stat-label" data-i18n="stats.stat1">不要な家具を再利用</span>
+            </div>
+            <div class="stat-card">
+                <i class="fa-solid fa-earth-asia stat-icon"></i>
+                <span class="stat-num">28</span>
+                <span class="stat-label" data-i18n="stats.stat2">対応する出身国・地域</span>
+            </div>
+            <div class="stat-card">
+                <i class="fa-solid fa-leaf stat-icon"></i>
+                <span class="stat-num">-42%</span>
+                <span class="stat-label" data-i18n="stats.stat3">粗大ごみの削減</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ==========================================================
+     安全に使うためのガイドライン
+     ========================================================== -->
+<section class="safety-section">
+    <div class="container">
+        <h2 class="section-title" data-i18n="safety.title">安心・安全にご利用いただくために</h2>
+        <div class="safety-grid">
+            <div class="safety-item">
+                <i class="fa-solid fa-user-check"></i>
+                <p data-i18n="safety.item1">初めての取引は、なるべく人通りの多い場所で受け渡しをしましょう。</p>
+            </div>
+            <div class="safety-item">
+                <i class="fa-solid fa-comment-dots"></i>
+                <p data-i18n="safety.item2">やりとりはできるだけアプリ内のメッセージで行い、記録を残しましょう。</p>
+            </div>
+            <div class="safety-item">
+                <i class="fa-solid fa-flag"></i>
+                <p data-i18n="safety.item3">不審な相手や不適切な投稿は、遠慮なく通報してください。</p>
+            </div>
+            <div class="safety-item">
+                <i class="fa-solid fa-shield-heart"></i>
+                <p data-i18n="safety.item4">ボランティアはすべて本人確認済みのメンバーのみが対応します。</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ==========================================================
+     FAQ
+     ========================================================== -->
+<section class="faq-section" id="faq">
+    <div class="container max-width-md">
+        <h2 class="section-title" data-i18n="faq.title">よくある質問</h2>
+
+        <details class="faq-item" open>
+            <summary data-i18n="faq.q1">利用料金はかかりますか？</summary>
+            <p data-i18n="faq.a1">閲覧や検索、メッセージのやりとりは無料です。ボランティアに依頼する場合のみ、少額の謝礼（300円〜）が発生します。</p>
+        </details>
+        <details class="faq-item">
+            <summary data-i18n="faq.q2">日本語が話せなくても使えますか？</summary>
+            <p data-i18n="faq.a2">はい。やさしい日本語のほか、英語・ベンガル語・ネパール語・中国語に対応しています。右上の言語ボタンから切り替えられます。</p>
+        </details>
+        <details class="faq-item">
+            <summary data-i18n="faq.q3">受け取りの日時はどう決めますか？</summary>
+            <p data-i18n="faq.a3">出品者・希望者どうしでメッセージをやりとりし、都合の良い日時と場所を相談して決めます。</p>
+        </details>
+        <details class="faq-item">
+            <summary data-i18n="faq.q4">壊れているものでも出品できますか？</summary>
+            <p data-i18n="faq.a4">状態は必ず正直に記載してください。「ジャンク品」として、部品取りや修理目的で欲しい人が見つかることもあります。</p>
+        </details>
+    </div>
+</section>
+
+<!-- ==========================================================
+     最終CTA
+     ========================================================== -->
+<section class="final-cta-section">
+    <div class="container final-cta-inner">
+        <h2 data-i18n="finalcta.title">今日から、もったいないを、つながりに。</h2>
+        <p data-i18n="finalcta.body">使わなくなったものが、誰かの「助かった」になる。まずは近くのアイテムを探してみましょう。</p>
+        <div class="final-cta-buttons">
+            <a href="give-item.html" class="btn-cta-outline" data-i18n="finalcta.giveBtn">ものをあげる</a>
+            <a href="receive-item.html" class="btn-cta-solid" data-i18n="finalcta.receiveBtn">ものをもらう</a>
+        </div>
+    </div>
+</section>
+
+<!-- ==========================================================
+     フッター
+     ========================================================== -->
+<footer class="site-footer">
+    <div class="container footer-grid">
+        <div class="footer-brand">
+            <span class="logo-icon"><i class="fa-solid fa-recycle"></i></span>
+            <span class="logo-text">Mottainai Connect</span>
+            <p data-i18n="footer.tagline">日本で暮らす外国人・留学生のための、あげる・もらう たすけあいサービス。</p>
+        </div>
+        <div class="footer-links">
+            <h4 data-i18n="footer.linksTitle">リンク</h4>
+            <a href="#about" data-i18n="nav.about">Mottainai Connectとは</a>
+            <a href="#how" data-i18n="nav.how">使い方</a>
+            <a href="#faq" data-i18n="nav.faq">よくある質問</a>
+        </div>
+        <div class="footer-contact">
+            <h4 data-i18n="footer.contact">お問い合わせ</h4>
+            <p>info@mottainai-connect.jp</p>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p data-i18n="footer.rights">© 2026 Mottainai Connect - 卒業制作</p>
+    </div>
+</footer>
+
+<script src="js/lang.js"></script>
+<script src="js/storage.js"></script>
+<script src="js/components.js"></script>
+<script src="js/filter.js"></script>
+<script src="js/index.js"></script>
+<script src="js/products.js"></script>
+<script src="js/product-display.js"></script>
+
+<script src="js/i18n/i18n.js"></script>
+
+</body>
+</html>

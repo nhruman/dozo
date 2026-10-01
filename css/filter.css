@@ -1,0 +1,92 @@
+/* Filter container */
+#filter-container {
+    display: flex;
+    align-items: center;
+}
+
+/* Filter wrapper */
+.filter-dropdown {
+    position: relative;
+}
+
+/* Filter button */
+.filter-button {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+
+    padding: 8px 12px;
+
+    color: #ffffff;
+    background: transparent;
+
+    border: 1px solid transparent;
+    border-radius: 6px;
+
+    font-size: 1rem;
+    font-weight: 600;
+
+    cursor: pointer;
+
+    transition: border-color 0.2s ease;
+}
+
+/* Hover */
+.filter-button:hover {
+    color: #ffffff;
+    background: transparent;
+    border-color: #ffffff;
+}
+
+/* Dropdown menu */
+.filter-menu {
+    display: none;
+
+    position: absolute;
+    top: calc(100% + 8px);
+    right: 0;
+
+    width: 200px;
+
+    padding: 10px;
+
+    background: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+
+    z-index: 1000;
+}
+
+/* Show dropdown */
+.filter-dropdown.active .filter-menu {
+    display: block;
+}
+
+/* Dropdown buttons */
+.filter-menu button {
+    display: block;
+    width: 100%;
+
+    padding: 8px 10px;
+
+    border: none;
+    background: transparent;
+
+    text-align: left;
+    font-size: 0.95rem;
+
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.filter-menu button:hover {
+    background: #f0f0f0;
+}
+
+/* Price title */
+.filter-menu p {
+    margin: 8px 10px 5px;
+    font-weight: 600;
+}

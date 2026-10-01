@@ -1,0 +1,78 @@
+/* ============================================================
+   Mottainai Connect - Category Section
+   ============================================================ */
+
+.category-section {
+    width: 100%;
+    margin: 30px 0;
+}
+
+/* Category navigation */
+.cat-tabs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+
+    width: 100%;
+    padding: 8px 0;
+}
+
+/* Category link */
+.cat-tabs a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 10px 18px;
+
+    border: 1px solid var(--line);
+    border-radius: var(--radius-pill);
+
+    color: var(--text);
+    background: #fff;
+
+    text-decoration: none;
+    font-size: 0.95rem;
+    font-weight: 500;
+
+    white-space: nowrap;
+
+    transition:
+        background 0.2s ease,
+        color 0.2s ease,
+        border-color 0.2s ease,
+        transform 0.2s ease;
+}
+
+/* Hover */
+.cat-tabs a:hover {
+    border-color: var(--primary);
+    color: var(--primary);
+    background: #f4f8f5;
+    transform: translateY(-1px);
+}
+
+/* Active */
+.cat-tabs a.active {
+    background: var(--primary);
+    color: #fff;
+    border-color: var(--primary);
+}
+
+/* ============================================================
+   Mobile
+   ============================================================ */
+
+@media (max-width: 768px) {
+
+    .cat-tabs {
+        justify-content: flex-start;
+        gap: 8px;
+    }
+
+    .cat-tabs a {
+        padding: 8px 14px;
+        font-size: 0.9rem;
+    }
+}
