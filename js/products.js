@@ -30,7 +30,7 @@ const products = [
         id: 3,
         category: "electronics",
         title: "Mackbook Air",
-        price: 0,
+        price: 50000,
         condition: "New",
         location: "横浜市",
         distance: "3.1 km",
@@ -42,7 +42,7 @@ const products = [
         id: 4,
         category: "electronics",
         title: "Camera",
-        price: 0,
+        price: 7000,
         condition: "New",
         details: "Brand new and unopened.",
         image: "camera.jpg"
@@ -51,11 +51,237 @@ const products = [
         id: 5,
         category: "electronics",
         title: "Smart Watchs",
-        price: 0,
+        price: 10000,
         condition: "Used",
         details: "Brand new and unopened.",
         image: "watch.jpg"
-    }
+    },
+    {
+        id: 6,
+        category: "electronics",
+        title: "Fresh Kewboard",
+        price: 0,
+        condition: "Used",
+        details: "Brand new and unopened.",
+        image: "keyboard.jpg"
+    },
+    {
+        id: 7,
+        category: "electronics",
+        title: "Aipod",
+        price: 5000,
+        condition: "Used",
+        details: "Brand new and unopened.",
+        image: "airpod.jpg"
+    },
+    {
+        id: 8,
+        category: "electronics",
+        title: "Sound Box",
+        price: 1000,
+        condition: "Used",
+        details: "Brand new and unopened.",
+        image: "box.jpg"
+    },
+    {
+        id: 9,
+        category: "electronics",
+        title: "Wareless Mouse",
+        price: 0,
+        condition: "Used",
+        details: "Brand new and unopened.",
+        image: "mouse.jpg"
+    },
+    {
+        id: 10,
+        category: "electronics",
+        title: "LED TV",
+        price: 2000,
+        condition: "Used",
+        details: "Brand new and unopened.",
+        image: "tv.jpg"
+    },
+    {
+        id: 9,
+        category: "electronics",
+        title: "Wareless Mouse",
+        price: 0,
+        condition: "Used",
+        details: "Brand new and unopened.",
+        image: "mouse.jpg"
+    },
+    {
+        id: 10,
+        category: "electronics",
+        title: "LED TV",
+        price: 2000,
+        condition: "Used",
+        details: "Brand new and unopened.",
+        image: "tv.jpg"
+    },
+    {
+        id: 9,
+        category: "electronics",
+        title: "Wareless Mouse",
+        price: 0,
+        condition: "Used",
+        details: "Brand new and unopened.",
+        image: "mouse.jpg"
+    },
+    {
+        id: 10,
+        category: "electronics",
+        title: "LED TV",
+        price: 2000,
+        condition: "Used",
+        details: "Brand new and unopened.",
+        image: "tv.jpg"
+    },
+    {
+        id: 9,
+        category: "electronics",
+        title: "Wareless Mouse",
+        price: 0,
+        condition: "Used",
+        details: "Brand new and unopened.",
+        image: "mouse.jpg"
+    },
+    {
+        id: 10,
+        category: "electronics",
+        title: "LED TV",
+        price: 2000,
+        condition: "Used",
+        details: "Brand new and unopened.",
+        image: "tv.jpg"
+    },
+    {
+        id: 9,
+        category: "electronics",
+        title: "Wareless Mouse",
+        price: 0,
+        condition: "Used",
+        details: "Brand new and unopened.",
+        image: "mouse.jpg"
+    },
+    {
+        id: 10,
+        category: "electronics",
+        title: "LED TV",
+        price: 2000,
+        condition: "Used",
+        details: "Brand new and unopened.",
+        image: "tv.jpg"
+    },
+    {
+        id: 9,
+        category: "electronics",
+        title: "Wareless Mouse",
+        price: 0,
+        condition: "Used",
+        details: "Brand new and unopened.",
+        image: "mouse.jpg"
+    },
+    {
+        id: 10,
+        category: "electronics",
+        title: "LED TV",
+        price: 2000,
+        condition: "Used",
+        details: "Brand new and unopened.",
+        image: "tv.jpg"
+    },
+    {
+        id: 9,
+        category: "electronics",
+        title: "Wareless Mouse",
+        price: 0,
+        condition: "Used",
+        details: "Brand new and unopened.",
+        image: "mouse.jpg"
+    },
+    {
+        id: 10,
+        category: "electronics",
+        title: "LED TV",
+        price: 2000,
+        condition: "Used",
+        details: "Brand new and unopened.",
+        image: "tv.jpg"
+    },
+    {
+        id: 9,
+        category: "electronics",
+        title: "Wareless Mouse",
+        price: 0,
+        condition: "Used",
+        details: "Brand new and unopened.",
+        image: "mouse.jpg"
+    },
+    {
+        id: 10,
+        category: "electronics",
+        title: "LED TV",
+        price: 2000,
+        condition: "Used",
+        details: "Brand new and unopened.",
+        image: "tv.jpg"
+    },
+    {
+        id: 9,
+        category: "electronics",
+        title: "Wareless Mouse",
+        price: 0,
+        condition: "Used",
+        details: "Brand new and unopened.",
+        image: "mouse.jpg"
+    },
+    {
+        id: 10,
+        category: "electronics",
+        title: "LED TV",
+        price: 2000,
+        condition: "Used",
+        details: "Brand new and unopened.",
+        image: "tv.jpg"
+    },
+    {
+        id: 9,
+        category: "electronics",
+        title: "Wareless Mouse",
+        price: 0,
+        condition: "Used",
+        details: "Brand new and unopened.",
+        image: "mouse.jpg"
+    },
+    {
+        id: 10,
+        category: "electronics",
+        title: "LED TV",
+        price: 2000,
+        condition: "Used",
+        details: "Brand new and unopened.",
+        image: "tv.jpg"
+    },
+    {
+        id: 9,
+        category: "electronics",
+        title: "Wareless Mouse",
+        price: 0,
+        condition: "Used",
+        details: "Brand new and unopened.",
+        image: "mouse.jpg"
+    },
+    {
+        id: 10,
+        category: "electronics",
+        title: "LED TV",
+        price: 2000,
+        condition: "Used",
+        details: "Brand new and unopened.",
+        image: "tv.jpg"
+    },
+
 
 
 ];

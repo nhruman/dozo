@@ -1,7 +1,8 @@
 .products-section {
     width: 100%;
-    padding: 20px 20px;
+    padding: 10px 20px;
 }
+
 .product-grid {
     width: 100%;
     margin: 0;
@@ -32,13 +33,9 @@
 .product-image {
     width: 100%;
     aspect-ratio: 1 / 1;
-    overflow: hidden;
-}
-
-.product-image img {
-    width: 100%;
-    height: 100%;
     object-fit: cover;
+    display: block;
+
 }
 
 .product-info {
@@ -50,14 +47,28 @@
     font-size: 1rem;
 }
 
-.product-price {
-    margin: 0 0 8px;
-    font-size: 1.05rem;
-    font-weight: 700;
-}
-
 .product-condition {
     font-size: 0.85rem;
+}
+
+.badge {
+    display: inline-block;
+    padding: 5px 10px;
+
+    background: rgba(255, 255, 255, 0.92);
+    color: #1f4a38;
+
+    font-size: 14px;
+    font-weight: 700;
+
+    border-radius: 8px;
+
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
+}
+
+.badge-free {
+    background: #FAF8F5;
+    color: red;
 }
 
 @media (max-width: 1000px) {
