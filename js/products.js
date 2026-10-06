@@ -102,7 +102,43 @@ const products = [
         image: "tv.jpg"
     },
     {
-        id: 9,
+        id: 11,
+        category: "electronics",
+        title: "Fridge New",
+        price: 0,
+        condition: "Used",
+        details: "Brand new and unopened.",
+        image: "fridge.jpg"
+    },
+    {
+        id: 12,
+        category: "electronics",
+        title: "Washing Machine",
+        price: 2000,
+        condition: "Used",
+        details: "Brand new and unopened.",
+        image: "washingmachine.jpg"
+    },
+    {
+        id: 13,
+        category: "electronics",
+        title: "New Headphone",
+        price: 0,
+        condition: "Used",
+        details: "Brand new and unopened.",
+        image: "headphone new.jpg"
+    },
+    {
+        id: 14,
+        category: "electronics",
+        title: "Mike for Podcast",
+        price: 2000,
+        condition: "Used",
+        details: "Brand new and unopened.",
+        image: "mike for podcast.jpg"
+    },
+    {
+        id: 15,
         category: "electronics",
         title: "Wareless Mouse",
         price: 0,
@@ -111,7 +147,7 @@ const products = [
         image: "mouse.jpg"
     },
     {
-        id: 10,
+        id: 16,
         category: "electronics",
         title: "LED TV",
         price: 2000,
@@ -120,7 +156,7 @@ const products = [
         image: "tv.jpg"
     },
     {
-        id: 9,
+        id: 17,
         category: "electronics",
         title: "Wareless Mouse",
         price: 0,
@@ -129,7 +165,7 @@ const products = [
         image: "mouse.jpg"
     },
     {
-        id: 10,
+        id: 18,
         category: "electronics",
         title: "LED TV",
         price: 2000,
@@ -138,7 +174,7 @@ const products = [
         image: "tv.jpg"
     },
     {
-        id: 9,
+        id: 19,
         category: "electronics",
         title: "Wareless Mouse",
         price: 0,
@@ -147,7 +183,7 @@ const products = [
         image: "mouse.jpg"
     },
     {
-        id: 10,
+        id: 20,
         category: "electronics",
         title: "LED TV",
         price: 2000,
@@ -156,7 +192,7 @@ const products = [
         image: "tv.jpg"
     },
     {
-        id: 9,
+        id: 21,
         category: "electronics",
         title: "Wareless Mouse",
         price: 0,
@@ -165,7 +201,7 @@ const products = [
         image: "mouse.jpg"
     },
     {
-        id: 10,
+        id: 22,
         category: "electronics",
         title: "LED TV",
         price: 2000,
@@ -174,7 +210,7 @@ const products = [
         image: "tv.jpg"
     },
     {
-        id: 9,
+        id: 23,
         category: "electronics",
         title: "Wareless Mouse",
         price: 0,
@@ -183,7 +219,7 @@ const products = [
         image: "mouse.jpg"
     },
     {
-        id: 10,
+        id: 24,
         category: "electronics",
         title: "LED TV",
         price: 2000,
@@ -192,7 +228,7 @@ const products = [
         image: "tv.jpg"
     },
     {
-        id: 9,
+        id: 25,
         category: "electronics",
         title: "Wareless Mouse",
         price: 0,
@@ -201,7 +237,7 @@ const products = [
         image: "mouse.jpg"
     },
     {
-        id: 10,
+        id: 26,
         category: "electronics",
         title: "LED TV",
         price: 2000,
@@ -210,7 +246,7 @@ const products = [
         image: "tv.jpg"
     },
     {
-        id: 9,
+        id: 27,
         category: "electronics",
         title: "Wareless Mouse",
         price: 0,
@@ -219,7 +255,7 @@ const products = [
         image: "mouse.jpg"
     },
     {
-        id: 10,
+        id: 28,
         category: "electronics",
         title: "LED TV",
         price: 2000,
@@ -228,7 +264,7 @@ const products = [
         image: "tv.jpg"
     },
     {
-        id: 9,
+        id: 29,
         category: "electronics",
         title: "Wareless Mouse",
         price: 0,
@@ -237,7 +273,7 @@ const products = [
         image: "mouse.jpg"
     },
     {
-        id: 10,
+        id: 30,
         category: "electronics",
         title: "LED TV",
         price: 2000,
@@ -245,43 +281,6 @@ const products = [
         details: "Brand new and unopened.",
         image: "tv.jpg"
     },
-    {
-        id: 9,
-        category: "electronics",
-        title: "Wareless Mouse",
-        price: 0,
-        condition: "Used",
-        details: "Brand new and unopened.",
-        image: "mouse.jpg"
-    },
-    {
-        id: 10,
-        category: "electronics",
-        title: "LED TV",
-        price: 2000,
-        condition: "Used",
-        details: "Brand new and unopened.",
-        image: "tv.jpg"
-    },
-    {
-        id: 9,
-        category: "electronics",
-        title: "Wareless Mouse",
-        price: 0,
-        condition: "Used",
-        details: "Brand new and unopened.",
-        image: "mouse.jpg"
-    },
-    {
-        id: 10,
-        category: "electronics",
-        title: "LED TV",
-        price: 2000,
-        condition: "Used",
-        details: "Brand new and unopened.",
-        image: "tv.jpg"
-    },
-
 
 
 ];
