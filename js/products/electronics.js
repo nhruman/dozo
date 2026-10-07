@@ -144,7 +144,7 @@ const products = [
         price: 0,
         condition: "Used",
         details: "Brand new and unopened.",
-        image: "mouse.jpg"
+        image: "15.png"
     },
     {
         id: 16,
@@ -153,7 +153,7 @@ const products = [
         price: 2000,
         condition: "Used",
         details: "Brand new and unopened.",
-        image: "tv.jpg"
+        image: "16.jpg"
     },
     {
         id: 17,
@@ -162,7 +162,7 @@ const products = [
         price: 0,
         condition: "Used",
         details: "Brand new and unopened.",
-        image: "mouse.jpg"
+        image: "17.png"
     },
     {
         id: 18,
@@ -171,7 +171,7 @@ const products = [
         price: 2000,
         condition: "Used",
         details: "Brand new and unopened.",
-        image: "tv.jpg"
+        image: "18.jpg"
     },
     {
         id: 19,
@@ -180,7 +180,7 @@ const products = [
         price: 0,
         condition: "Used",
         details: "Brand new and unopened.",
-        image: "mouse.jpg"
+        image: "19.jpg"
     },
     {
         id: 20,
@@ -189,7 +189,7 @@ const products = [
         price: 2000,
         condition: "Used",
         details: "Brand new and unopened.",
-        image: "tv.jpg"
+        image: "20.jpg"
     },
     {
         id: 21,
@@ -198,7 +198,7 @@ const products = [
         price: 0,
         condition: "Used",
         details: "Brand new and unopened.",
-        image: "mouse.jpg"
+        image: "21.jpg"
     },
     {
         id: 22,
@@ -207,7 +207,7 @@ const products = [
         price: 2000,
         condition: "Used",
         details: "Brand new and unopened.",
-        image: "tv.jpg"
+        image: "22.jpg"
     },
     {
         id: 23,
@@ -216,7 +216,7 @@ const products = [
         price: 0,
         condition: "Used",
         details: "Brand new and unopened.",
-        image: "mouse.jpg"
+        image: "23.jpg"
     },
     {
         id: 24,
@@ -225,7 +225,7 @@ const products = [
         price: 2000,
         condition: "Used",
         details: "Brand new and unopened.",
-        image: "tv.jpg"
+        image: "24.jpg"
     },
     {
         id: 25,
@@ -234,7 +234,7 @@ const products = [
         price: 0,
         condition: "Used",
         details: "Brand new and unopened.",
-        image: "mouse.jpg"
+        image: "25.jpg"
     },
     {
         id: 26,
@@ -243,7 +243,7 @@ const products = [
         price: 2000,
         condition: "Used",
         details: "Brand new and unopened.",
-        image: "tv.jpg"
+        image: "26.jpg"
     },
     {
         id: 27,
@@ -252,7 +252,7 @@ const products = [
         price: 0,
         condition: "Used",
         details: "Brand new and unopened.",
-        image: "mouse.jpg"
+        image: "27.png"
     },
     {
         id: 28,
@@ -261,7 +261,7 @@ const products = [
         price: 2000,
         condition: "Used",
         details: "Brand new and unopened.",
-        image: "tv.jpg"
+        image: "28.jpg"
     },
     {
         id: 29,
@@ -270,7 +270,7 @@ const products = [
         price: 0,
         condition: "Used",
         details: "Brand new and unopened.",
-        image: "mouse.jpg"
+        image: "29.jpg"
     },
     {
         id: 30,
@@ -279,7 +279,7 @@ const products = [
         price: 2000,
         condition: "Used",
         details: "Brand new and unopened.",
-        image: "tv.jpg"
+        image: "30.jpg"
     },
 
 
