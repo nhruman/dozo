@@ -299,7 +299,7 @@ function createProductCard(product) {
             <div class="card-image-box">
 
                 <img
-                    src="images/electronics/${product.image}"
+                    src="images/${product.category}/${product.image}"
                     alt="${product.title}"
                     class="product-image"
                     loading="lazy"

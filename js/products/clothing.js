@@ -2,18 +2,114 @@ const clothingProducts = [
     {
         id: 1,
         category: "clothing",
-        title: "name",
-        price: "0",
+        title: "Color Socks",
+        price: "200",
         condition: "new",
         location: "yokohama",
         distance:"1.0 km",
         pickup:"Bol",
-        details:" cloths ... etc",
+        details:" Lotto Anti-Odor Premium Socks",
         image:"1.jpg"
     },
     
     {
-        id: 1,
+        id: 2,
+        category: "clothing",
+        title: "T-Shirt",
+        price: "0",
+        condition: "used",
+        location: "yokohama",
+        distance:"1.0 km",
+        pickup:"Bol",
+        details:" T-Shirt",
+        image:"2.jpg"
+    },
+    {
+        id: 3,
+        category: "clothing",
+        title: "Socks",
+        price: "500",
+        condition: "new",
+        location: "yokohama",
+        distance:"1.0 km",
+        pickup:"Bol",
+        details:" cloths ... etc",
+        image:"3.jpg"
+    },
+    {
+        id: 4,
+        category: "clothing",
+        title: "name",
+        price: "0",
+        condition: "new",
+        location: "yokohama",
+        distance:"1.0 km",
+        pickup:"Bol",
+        details:" cloths ... etc",
+        image:"4.jpg"
+    },
+    {
+        id: 5,
+        category: "clothing",
+        title: "Jackets",
+        price: "0",
+        condition: "new",
+        location: "yokohama",
+        distance:"1.0 km",
+        pickup:"Bol",
+        details:" Jackets",
+        image:"5.jpg"
+    },
+    {
+        id: 6,
+        category: "clothing",
+        title: "name",
+        price: "0",
+        condition: "new",
+        location: "yokohama",
+        distance:"1.0 km",
+        pickup:"Bol",
+        details:" cloths ... etc",
+        image:"6.jpg"
+    },
+    {
+        id: 7,
+        category: "clothing",
+        title: "name",
+        price: "0",
+        condition: "new",
+        location: "yokohama",
+        distance:"1.0 km",
+        pickup:"Bol",
+        details:" cloths ... etc",
+        image:"7.jpg"
+    },
+    {
+        id: 8,
+        category: "clothing",
+        title: "name",
+        price: "0",
+        condition: "new",
+        location: "yokohama",
+        distance:"1.0 km",
+        pickup:"Bol",
+        details:" cloths ... etc",
+        image:"8.jpg"
+    },
+    {
+        id: 9,
+        category: "clothing",
+        title: "name",
+        price: "0",
+        condition: "new",
+        location: "yokohama",
+        distance:"1.0 km",
+        pickup:"Bol",
+        details:" cloths ... etc",
+        image:"9.jpg"
+    },
+    {
+        id: 10,
         category: "clothing",
         title: "name",
         price: "0",
@@ -25,67 +121,67 @@ const clothingProducts = [
         image:"1.jpg"
     },
     {
-        id: 1,
+        id: 11,
         category: "clothing",
-        title: "name",
-        price: "0",
+        title: "T-Shirt",
+        price: "500",
         condition: "new",
         location: "yokohama",
         distance:"1.0 km",
         pickup:"Bol",
-        details:" cloths ... etc",
-        image:"1.jpg"
+        details:"Popular T-Shirt",
+        image:"11.jpg"
     },
     {
-        id: 1,
+        id: 12,
         category: "clothing",
         title: "name",
-        price: "0",
+        price: 0,
         condition: "new",
         location: "yokohama",
         distance:"1.0 km",
         pickup:"Bol",
         details:" cloths ... etc",
-        image:"1.jpg"
+        image:"12.jpg"
     },
     {
-        id: 1,
+        id: 13,
         category: "clothing",
         title: "name",
-        price: "0",
+        price: 0,
         condition: "new",
         location: "yokohama",
         distance:"1.0 km",
         pickup:"Bol",
         details:" cloths ... etc",
-        image:"1.jpg"
+        image:"13.jpg"
     },
     {
-        id: 1,
+        id: 14,
         category: "clothing",
         title: "name",
-        price: "0",
+        price: 0,
         condition: "new",
         location: "yokohama",
         distance:"1.0 km",
         pickup:"Bol",
         details:" cloths ... etc",
-        image:"1.jpg"
+        image:"14.jpg"
     },
     {
-        id: 1,
+        id: 15,
         category: "clothing",
         title: "name",
-        price: "0",
+        price: 0,
         condition: "new",
         location: "yokohama",
         distance:"1.0 km",
         pickup:"Bol",
         details:" cloths ... etc",
-        image:"1.jpg"
+        image:"15.jpg"
     },
     {
-        id: 1,
+        id: 16,
         category: "clothing",
         title: "name",
         price: "0",
@@ -94,10 +190,10 @@ const clothingProducts = [
         distance:"1.0 km",
         pickup:"Bol",
         details:" cloths ... etc",
-        image:"1.jpg"
+        image:"16.jpg"
     },
     {
-        id: 1,
+        id: 17,
         category: "clothing",
         title: "name",
         price: "0",
@@ -106,10 +202,46 @@ const clothingProducts = [
         distance:"1.0 km",
         pickup:"Bol",
         details:" cloths ... etc",
-        image:"1.jpg"
+        image:"17.jpg"
     },
     {
-        id: 1,
+        id: 18,
+        category: "clothing",
+        title: "name",
+        price: 0,
+        condition: "new",
+        location: "yokohama",
+        distance:"1.0 km",
+        pickup:"Bol",
+        details:" cloths ... etc",
+        image:"18.jpg"
+    },
+    {
+        id: 19,
+        category: "clothing",
+        title: "Coats",
+        price: "0",
+        condition: "new",
+        location: "yokohama",
+        distance:"1.0 km",
+        pickup:"Bol",
+        details:" Coats",
+        image:"19.jpg"
+    },
+    {
+        id: 20,
+        category: "clothing",
+        title: "name",
+        price: 0,
+        condition: "new",
+        location: "yokohama",
+        distance:"1.0 km",
+        pickup:"Bol",
+        details:" cloths ... etc",
+        image:"20.jpg"
+    },
+    {
+        id: 21,
         category: "clothing",
         title: "name",
         price: "0",
@@ -118,7 +250,67 @@ const clothingProducts = [
         distance:"1.0 km",
         pickup:"Bol",
         details:" cloths ... etc",
-        image:"1.jpg"
+        image:"21.jpg"
+    },
+    {
+        id: 22,
+        category: "clothing",
+        title: "name",
+        price: "0",
+        condition: "new",
+        location: "yokohama",
+        distance:"1.0 km",
+        pickup:"Bol",
+        details:" cloths ... etc",
+        image:"22.jpg"
+    },
+    {
+        id: 23,
+        category: "clothing",
+        title: "name",
+        price: 0,
+        condition: "new",
+        location: "yokohama",
+        distance:"1.0 km",
+        pickup:"Bol",
+        details:" cloths ... etc",
+        image:"23.jpg"
+    },
+    {
+        id: 24,
+        category: "clothing",
+        title: "name",
+        price: "0",
+        condition: "new",
+        location: "yokohama",
+        distance:"1.0 km",
+        pickup:"Bol",
+        details:" cloths ... etc",
+        image:"24.jpg"
+    },
+    {
+        id: 25,
+        category: "clothing",
+        title: "name",
+        price: "0",
+        condition: "new",
+        location: "yokohama",
+        distance:"1.0 km",
+        pickup:"Bol",
+        details:" cloths ... etc",
+        image:"25.jpg"
+    },
+    {
+        id: 26,
+        category: "clothing",
+        title: "name",
+        price: 0,
+        condition: "new",
+        location: "yokohama",
+        distance:"1.0 km",
+        pickup:"Bol",
+        details:" cloths ... etc",
+        image:"26.jpg"
     },
 
 ]
