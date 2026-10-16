@@ -72,7 +72,7 @@ const beddingProducts = [
         image: "06.jpg"
     },
     {
-        id: 4,
+        id: 7,
         category: "bedding",
         title: "Floor Cushion",
         price: 0,
@@ -84,7 +84,7 @@ const beddingProducts = [
         image: "07.jpg"
     },
     {
-        id: 4,
+        id: 8,
         category: "bedding",
         title: "Floor Cushion",
         price: 0,
@@ -96,7 +96,7 @@ const beddingProducts = [
         image: "08.jpg"
     },
     {
-        id: 4,
+        id: 9,
         category: "bedding",
         title: "Floor Cushion",
         price: 0,
@@ -108,7 +108,7 @@ const beddingProducts = [
         image: "09.jpg"
     },
     {
-        id: 4,
+        id: 10,
         category: "bedding",
         title: "Floor Cushion",
         price: 0,
@@ -120,7 +120,7 @@ const beddingProducts = [
         image: "10.jpg"
     },
     {
-        id: 4,
+        id: 11,
         category: "bedding",
         title: "Floor Cushion",
         price: 0,
@@ -132,7 +132,7 @@ const beddingProducts = [
         image: "11.jpg"
     },
     {
-        id: 4,
+        id: 12,
         category: "bedding",
         title: "Floor Cushion",
         price: 0,
@@ -144,7 +144,7 @@ const beddingProducts = [
         image: "12.jpg"
     },
     {
-        id: 4,
+        id: 13,
         category: "bedding",
         title: "Floor Cushion",
         price: 0,
@@ -156,7 +156,7 @@ const beddingProducts = [
         image: "04.jpg"
     },
     {
-        id: 4,
+        id: 14,
         category: "bedding",
         title: "Floor Cushion",
         price: 0,
@@ -168,7 +168,7 @@ const beddingProducts = [
         image: "04.jpg"
     },
     {
-        id: 4,
+        id: 15,
         category: "bedding",
         title: "Floor Cushion",
         price: 0,
@@ -180,7 +180,7 @@ const beddingProducts = [
         image: "04.jpg"
     },
     {
-        id: 4,
+        id: 16,
         category: "bedding",
         title: "Floor Cushion",
         price: 0,
@@ -192,7 +192,7 @@ const beddingProducts = [
         image: "04.jpg"
     },
     {
-        id: 4,
+        id: 17,
         category: "bedding",
         title: "Floor Cushion",
         price: 0,
@@ -204,7 +204,7 @@ const beddingProducts = [
         image: "04.jpg"
     },
     {
-        id: 4,
+        id: 18,
         category: "bedding",
         title: "Floor Cushion",
         price: 0,
@@ -216,7 +216,7 @@ const beddingProducts = [
         image: "04.jpg"
     },
     {
-        id: 4,
+        id: 19,
         category: "bedding",
         title: "Floor Cushion",
         price: 0,
@@ -228,7 +228,7 @@ const beddingProducts = [
         image: "04.jpg"
     },
     {
-        id: 4,
+        id: 20,
         category: "bedding",
         title: "Floor Cushion",
         price: 0,
@@ -240,7 +240,7 @@ const beddingProducts = [
         image: "04.jpg"
     },
     {
-        id: 4,
+        id: 21,
         category: "bedding",
         title: "Floor Cushion",
         price: 0,
@@ -252,7 +252,7 @@ const beddingProducts = [
         image: "04.jpg"
     },
     {
-        id: 4,
+        id: 22,
         category: "bedding",
         title: "Floor Cushion",
         price: 0,
@@ -264,7 +264,7 @@ const beddingProducts = [
         image: "04.jpg"
     },
     {
-        id: 4,
+        id: 23,
         category: "bedding",
         title: "Floor Cushion",
         price: 0,
@@ -276,7 +276,7 @@ const beddingProducts = [
         image: "04.jpg"
     },
     {
-        id: 4,
+        id: 24,
         category: "bedding",
         title: "Floor Cushion",
         price: 0,
@@ -288,7 +288,7 @@ const beddingProducts = [
         image: "04.jpg"
     },
     {
-        id: 4,
+        id: 25,
         category: "bedding",
         title: "Floor Cushion",
         price: 0,
@@ -300,7 +300,7 @@ const beddingProducts = [
         image: "04.jpg"
     },
     {
-        id: 4,
+        id: 26,
         category: "bedding",
         title: "Floor Cushion",
         price: 0,
@@ -312,7 +312,43 @@ const beddingProducts = [
         image: "04.jpg"
     },
     {
-        id: 4,
+        id: 27,
+        category: "bedding",
+        title: "Floor Cushion",
+        price: 0,
+        condition: "used",
+        location: "yokohama",
+        distance: "1.5 km",
+        pickup: "Bol",
+        details: "Comfortable floor cushion",
+        image: "04.jpg"
+    },
+    {
+        id: 28,
+        category: "bedding",
+        title: "Floor Cushion",
+        price: 0,
+        condition: "used",
+        location: "yokohama",
+        distance: "1.5 km",
+        pickup: "Bol",
+        details: "Comfortable floor cushion",
+        image: "04.jpg"
+    },
+    {
+        id: 29,
+        category: "bedding",
+        title: "Floor Cushion",
+        price: 0,
+        condition: "used",
+        location: "yokohama",
+        distance: "1.5 km",
+        pickup: "Bol",
+        details: "Comfortable floor cushion",
+        image: "04.jpg"
+    },
+    {
+        id: 30,
         category: "bedding",
         title: "Floor Cushion",
         price: 0,
