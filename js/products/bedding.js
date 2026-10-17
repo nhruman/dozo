@@ -153,7 +153,7 @@ const beddingProducts = [
         distance: "1.5 km",
         pickup: "Bol",
         details: "Comfortable floor cushion",
-        image: "04.jpg"
+        image: "13.jpg"
     },
     {
         id: 14,
@@ -165,7 +165,7 @@ const beddingProducts = [
         distance: "1.5 km",
         pickup: "Bol",
         details: "Comfortable floor cushion",
-        image: "04.jpg"
+        image: "14.jpg"
     },
     {
         id: 15,
@@ -177,7 +177,7 @@ const beddingProducts = [
         distance: "1.5 km",
         pickup: "Bol",
         details: "Comfortable floor cushion",
-        image: "04.jpg"
+        image: "15.jpg"
     },
     {
         id: 16,
@@ -189,7 +189,7 @@ const beddingProducts = [
         distance: "1.5 km",
         pickup: "Bol",
         details: "Comfortable floor cushion",
-        image: "04.jpg"
+        image: "16.jpg"
     },
     {
         id: 17,
@@ -201,7 +201,7 @@ const beddingProducts = [
         distance: "1.5 km",
         pickup: "Bol",
         details: "Comfortable floor cushion",
-        image: "04.jpg"
+        image: "17.jpg"
     },
     {
         id: 18,
@@ -213,7 +213,7 @@ const beddingProducts = [
         distance: "1.5 km",
         pickup: "Bol",
         details: "Comfortable floor cushion",
-        image: "04.jpg"
+        image: "18.jpg"
     },
     {
         id: 19,
@@ -225,7 +225,7 @@ const beddingProducts = [
         distance: "1.5 km",
         pickup: "Bol",
         details: "Comfortable floor cushion",
-        image: "04.jpg"
+        image: "19.jpg"
     },
     {
         id: 20,
@@ -237,7 +237,7 @@ const beddingProducts = [
         distance: "1.5 km",
         pickup: "Bol",
         details: "Comfortable floor cushion",
-        image: "04.jpg"
+        image: "20.jpg"
     },
     {
         id: 21,
@@ -249,7 +249,7 @@ const beddingProducts = [
         distance: "1.5 km",
         pickup: "Bol",
         details: "Comfortable floor cushion",
-        image: "04.jpg"
+        image: "21.jpg"
     },
     {
         id: 22,
@@ -261,7 +261,7 @@ const beddingProducts = [
         distance: "1.5 km",
         pickup: "Bol",
         details: "Comfortable floor cushion",
-        image: "04.jpg"
+        image: "22.jpg"
     },
     {
         id: 23,
@@ -273,7 +273,7 @@ const beddingProducts = [
         distance: "1.5 km",
         pickup: "Bol",
         details: "Comfortable floor cushion",
-        image: "04.jpg"
+        image: "23.jpg"
     },
     {
         id: 24,
@@ -285,7 +285,7 @@ const beddingProducts = [
         distance: "1.5 km",
         pickup: "Bol",
         details: "Comfortable floor cushion",
-        image: "04.jpg"
+        image: "24.jpg"
     },
     {
         id: 25,
@@ -297,7 +297,7 @@ const beddingProducts = [
         distance: "1.5 km",
         pickup: "Bol",
         details: "Comfortable floor cushion",
-        image: "04.jpg"
+        image: "25.jpg"
     },
     {
         id: 26,
@@ -309,7 +309,7 @@ const beddingProducts = [
         distance: "1.5 km",
         pickup: "Bol",
         details: "Comfortable floor cushion",
-        image: "04.jpg"
+        image: "26.jpg"
     },
     {
         id: 27,
@@ -321,7 +321,7 @@ const beddingProducts = [
         distance: "1.5 km",
         pickup: "Bol",
         details: "Comfortable floor cushion",
-        image: "04.jpg"
+        image: "27.jpg"
     },
     {
         id: 28,
@@ -333,7 +333,7 @@ const beddingProducts = [
         distance: "1.5 km",
         pickup: "Bol",
         details: "Comfortable floor cushion",
-        image: "04.jpg"
+        image: "28.jpg"
     },
     {
         id: 29,
@@ -345,7 +345,7 @@ const beddingProducts = [
         distance: "1.5 km",
         pickup: "Bol",
         details: "Comfortable floor cushion",
-        image: "04.jpg"
+        image: "29.jpg"
     },
     {
         id: 30,
@@ -357,7 +357,7 @@ const beddingProducts = [
         distance: "1.5 km",
         pickup: "Bol",
         details: "Comfortable floor cushion",
-        image: "04.jpg"
+        image: "30.jpg"
     },
 
 ];
