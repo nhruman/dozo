@@ -364,6 +364,19 @@ const booksProducts = [
         pickup: "ボランティア利用可",
         details: "Popular YA novel 'The Hate U Give' by Angie Thomas.",
         image: "18.jpg"
+    },
+
+    {
+        id: 205,
+        category: "books",
+        title: "The Hate U Give",
+        price: 0,
+        condition: "Used",
+        location: "川崎市",
+        distance: "2.5 km",
+        pickup: "ボランティア利用可",
+        details: "Popular YA novel 'The Hate U Give' by Angie Thomas.",
+        image: "28.jpg"
     }
 
 ];
