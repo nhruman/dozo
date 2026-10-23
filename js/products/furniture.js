@@ -45,7 +45,7 @@ const furnitureProducts = [
         distance: "3.0 km",
         pickup: "Bol",
         details: "Small wooden bookshelf",
-        image: "03.jpg"
+        image: "04.jpg"
     },
     {
         id: 3,
@@ -57,7 +57,7 @@ const furnitureProducts = [
         distance: "3.0 km",
         pickup: "Bol",
         details: "Small wooden bookshelf",
-        image: "03.jpg"
+        image: "05.jpg"
     },
     {
         id: 3,
@@ -69,7 +69,7 @@ const furnitureProducts = [
         distance: "3.0 km",
         pickup: "Bol",
         details: "Small wooden bookshelf",
-        image: "03.jpg"
+        image: "06.jpg"
     },
     {
         id: 3,
@@ -81,7 +81,7 @@ const furnitureProducts = [
         distance: "3.0 km",
         pickup: "Bol",
         details: "Small wooden bookshelf",
-        image: "03.jpg"
+        image: "07.jpg"
     },
     {
         id: 3,
@@ -93,7 +93,7 @@ const furnitureProducts = [
         distance: "3.0 km",
         pickup: "Bol",
         details: "Small wooden bookshelf",
-        image: "03.jpg"
+        image: "08.jpg"
     },
     {
         id: 3,
@@ -105,7 +105,19 @@ const furnitureProducts = [
         distance: "3.0 km",
         pickup: "Bol",
         details: "Small wooden bookshelf",
-        image: "03.jpg"
+        image: "09.jpg"
+    },
+    {
+        id: 10,
+        category: "furniture",
+        title: "Bookshelf",
+        price: 500,
+        condition: "used",
+        location: "tokyo",
+        distance: "3.0 km",
+        pickup: "Bol",
+        details: "Small wooden bookshelf",
+        image: "10.jpg"
     },
     {
         id: 3,
@@ -117,7 +129,7 @@ const furnitureProducts = [
         distance: "3.0 km",
         pickup: "Bol",
         details: "Small wooden bookshelf",
-        image: "03.jpg"
+        image: "11.jpg"
     },
     {
         id: 3,
@@ -129,7 +141,7 @@ const furnitureProducts = [
         distance: "3.0 km",
         pickup: "Bol",
         details: "Small wooden bookshelf",
-        image: "03.jpg"
+        image: "12.jpg"
     },
     {
         id: 3,
@@ -141,7 +153,7 @@ const furnitureProducts = [
         distance: "3.0 km",
         pickup: "Bol",
         details: "Small wooden bookshelf",
-        image: "03.jpg"
+        image: "13.jpg"
     },
     {
         id: 3,
@@ -153,7 +165,7 @@ const furnitureProducts = [
         distance: "3.0 km",
         pickup: "Bol",
         details: "Small wooden bookshelf",
-        image: "03.jpg"
+        image: "14.jpg"
     },
     {
         id: 3,
@@ -165,7 +177,7 @@ const furnitureProducts = [
         distance: "3.0 km",
         pickup: "Bol",
         details: "Small wooden bookshelf",
-        image: "03.jpg"
+        image: "15.jpg"
     },
     {
         id: 3,
@@ -177,7 +189,7 @@ const furnitureProducts = [
         distance: "3.0 km",
         pickup: "Bol",
         details: "Small wooden bookshelf",
-        image: "03.jpg"
+        image: "16.jpg"
     },
     {
         id: 3,
@@ -189,7 +201,7 @@ const furnitureProducts = [
         distance: "3.0 km",
         pickup: "Bol",
         details: "Small wooden bookshelf",
-        image: "03.jpg"
+        image: "17.jpg"
     },
     {
         id: 3,
@@ -201,7 +213,7 @@ const furnitureProducts = [
         distance: "3.0 km",
         pickup: "Bol",
         details: "Small wooden bookshelf",
-        image: "03.jpg"
+        image: "18.jpg"
     },
     {
         id: 3,
@@ -213,7 +225,7 @@ const furnitureProducts = [
         distance: "3.0 km",
         pickup: "Bol",
         details: "Small wooden bookshelf",
-        image: "03.jpg"
+        image: "19.jpg"
     },
     {
         id: 3,
@@ -225,7 +237,7 @@ const furnitureProducts = [
         distance: "3.0 km",
         pickup: "Bol",
         details: "Small wooden bookshelf",
-        image: "03.jpg"
+        image: "20.jpg"
     },
     {
         id: 3,
@@ -237,7 +249,7 @@ const furnitureProducts = [
         distance: "3.0 km",
         pickup: "Bol",
         details: "Small wooden bookshelf",
-        image: "03.jpg"
+        image: "21.jpg"
     },
     {
         id: 3,
@@ -249,7 +261,7 @@ const furnitureProducts = [
         distance: "3.0 km",
         pickup: "Bol",
         details: "Small wooden bookshelf",
-        image: "03.jpg"
+        image: "22.jpg"
     },
     {
         id: 3,
@@ -261,7 +273,7 @@ const furnitureProducts = [
         distance: "3.0 km",
         pickup: "Bol",
         details: "Small wooden bookshelf",
-        image: "03.jpg"
+        image: "23.jpg"
     },
     {
         id: 3,
@@ -273,7 +285,7 @@ const furnitureProducts = [
         distance: "3.0 km",
         pickup: "Bol",
         details: "Small wooden bookshelf",
-        image: "03.jpg"
+        image: "24.jpg"
     },
     {
         id: 3,
@@ -285,7 +297,7 @@ const furnitureProducts = [
         distance: "3.0 km",
         pickup: "Bol",
         details: "Small wooden bookshelf",
-        image: "03.jpg"
+        image: "25.jpg"
     },
     {
         id: 3,
@@ -297,7 +309,7 @@ const furnitureProducts = [
         distance: "3.0 km",
         pickup: "Bol",
         details: "Small wooden bookshelf",
-        image: "03.jpg"
+        image: "26.jpg"
     },
     {
         id: 3,
@@ -309,7 +321,7 @@ const furnitureProducts = [
         distance: "3.0 km",
         pickup: "Bol",
         details: "Small wooden bookshelf",
-        image: "03.jpg"
+        image: "27.jpg"
     },
     {
         id: 3,
@@ -321,7 +333,7 @@ const furnitureProducts = [
         distance: "3.0 km",
         pickup: "Bol",
         details: "Small wooden bookshelf",
-        image: "03.jpg"
+        image: "28.jpg"
     },
     {
         id: 3,
@@ -333,7 +345,7 @@ const furnitureProducts = [
         distance: "3.0 km",
         pickup: "Bol",
         details: "Small wooden bookshelf",
-        image: "03.jpg"
+        image: "29.jpg"
     },
     {
         id: 3,
@@ -345,7 +357,7 @@ const furnitureProducts = [
         distance: "3.0 km",
         pickup: "Bol",
         details: "Small wooden bookshelf",
-        image: "03.jpg"
+        image: "30.jpg"
     },
     {
         id: 3,
@@ -357,19 +369,7 @@ const furnitureProducts = [
         distance: "3.0 km",
         pickup: "Bol",
         details: "Small wooden bookshelf",
-        image: "03.jpg"
-    },
-    {
-        id: 3,
-        category: "furniture",
-        title: "Bookshelf",
-        price: 500,
-        condition: "used",
-        location: "tokyo",
-        distance: "3.0 km",
-        pickup: "Bol",
-        details: "Small wooden bookshelf",
-        image: "03.jpg"
+        image: "31.jpg"
     },
     {
         id: 4,
@@ -381,6 +381,6 @@ const furnitureProducts = [
         distance: "1.5 km",
         pickup: "Bol",
         details: "Modern table lamp",
-        image: "04.jpg"
+        image: "32.jpg"
     }
 ];

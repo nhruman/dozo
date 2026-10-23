@@ -2,367 +2,367 @@ const toysProducts = [
     {
         id: 1,
         category: "toy",
-        title: "Teddy Bear",
+        title: "Baby Carrier (Light Blue)",
         price: 0,
         condition: "used",
         location: "yokohama",
         distance: "1.0 km",
         pickup: "Bol",
-        details: "Soft teddy bear in good condition",
+        details: "Comfortable light blue breathable mesh baby carrier.",
         image: "01.jpg"
     },
 
     {
         id: 2,
         category: "toy",
-        title: "Toy Car",
+        title: "Ergonomic Baby Carrier Set",
         price: 300,
         condition: "used",
         location: "yokohama",
         distance: "2.0 km",
         pickup: "Bol",
-        details: "Toy car for kids",
+        details: "Multi-color baby carrier options in charcoal gray, white, and black.",
         image: "02.jpg"
     },
     {
         id: 2,
         category: "toy",
-        title: "Toy Car",
+        title: "Baby Feeding Bottle",
         price: 300,
         condition: "used",
         location: "yokohama",
         distance: "2.0 km",
         pickup: "Bol",
-        details: "Toy car for kids",
-        image: "02.jpg"
+        details: "Clear baby bottle with light blue cap and cute cartoon prints.",
+        image: "03.jpg"
     },
     {
         id: 2,
         category: "toy",
-        title: "Toy Car",
+        title: "Inflatable Baby Pool",
         price: 300,
         condition: "used",
         location: "yokohama",
         distance: "2.0 km",
         pickup: "Bol",
-        details: "Toy car for kids",
-        image: "02.jpg"
+        details: "Colorful printed inflatable paddling bath pool for toddlers.",
+        image: "04.jpg"
     },
     {
         id: 2,
         category: "toy",
-        title: "Toy Car",
+        title: "Blue Baby Bath Tub",
         price: 300,
         condition: "used",
         location: "yokohama",
         distance: "2.0 km",
         pickup: "Bol",
-        details: "Toy car for kids",
-        image: "02.jpg"
+        details: "Ergonomic plastic blue bathtub for infants.",
+        image: "05.jpg"
     },
     {
         id: 2,
         category: "toy",
-        title: "Toy Car",
+        title: "Smart Baby Monitor Camera",
         price: 300,
         condition: "used",
         location: "yokohama",
         distance: "2.0 km",
         pickup: "Bol",
-        details: "Toy car for kids",
-        image: "02.jpg"
+        details: "Eufy security baby monitor camera with display screen.",
+        image: "06.jpg"
     },
     {
         id: 2,
         category: "toy",
-        title: "Toy Car",
+        title: "Wireless Baby Monitor Set",
         price: 300,
         condition: "used",
         location: "yokohama",
         distance: "2.0 km",
         pickup: "Bol",
-        details: "Toy car for kids",
-        image: "02.jpg"
+        details: "White rotating security camera with LCD video screen receiver.",
+        image: "07.jpg"
     },
     {
         id: 2,
         category: "toy",
-        title: "Toy Car",
+        title: "Flexible Mount Baby Camera",
         price: 300,
         condition: "used",
         location: "yokohama",
         distance: "2.0 km",
         pickup: "Bol",
-        details: "Toy car for kids",
-        image: "02.jpg"
+        details: "Baby camera with flexible twist tripod base for crib attachment.",
+        image: "08.jpg"
     },
     {
         id: 2,
         category: "toy",
-        title: "Toy Car",
+        title: "Indoor Safety Gate",
         price: 300,
         condition: "used",
         location: "yokohama",
         distance: "2.0 km",
         pickup: "Bol",
-        details: "Toy car for kids",
-        image: "02.jpg"
+        details: "Grey metal child security barrier gate for doorway.",
+        image: "09.jpg"
     },
     {
         id: 2,
         category: "toy",
-        title: "Toy Car",
+        title: "Staircase Baby Safety Gate",
         price: 300,
         condition: "used",
         location: "yokohama",
         distance: "2.0 km",
         pickup: "Bol",
-        details: "Toy car for kids",
-        image: "02.jpg"
+        details: "White adjustable safety gate for stairs and hallway.",
+        image: "10.jpg"
+    },
+    {
+        id: 11,
+        category: "toy",
+        title: "Indoor Playground Slide and Swing Set",
+        price: 300,
+        condition: "used",
+        location: "yokohama",
+        distance: "2.0 km",
+        pickup: "Bol",
+        details: "Colorful indoor plastic slide with swing and basketball hoop for toddlers.",
+        image: "11.jpg"
     },
     {
         id: 2,
         category: "toy",
-        title: "Toy Car",
+        title: "Colorful Magnetic Drawing Board",
         price: 300,
         condition: "used",
         location: "yokohama",
         distance: "2.0 km",
         pickup: "Bol",
-        details: "Toy car for kids",
-        image: "02.jpg"
+        details: "Orange and yellow magnetic doodle drawing board with stylus.",
+        image: "12.jpg"
     },
     {
         id: 2,
         category: "toy",
-        title: "Toy Car",
+        title: "Magnetic Alphabet Whiteboard Set",
         price: 300,
         condition: "used",
         location: "yokohama",
         distance: "2.0 km",
         pickup: "Bol",
-        details: "Toy car for kids",
-        image: "02.jpg"
+        details: "Educational whiteboard set with magnetic English letters.",
+        image: "13.jpg"
     },
     {
         id: 2,
         category: "toy",
-        title: "Toy Car",
+        title: "Wooden Play Kitchen Set",
         price: 300,
         condition: "used",
         location: "yokohama",
         distance: "2.0 km",
         pickup: "Bol",
-        details: "Toy car for kids",
-        image: "02.jpg"
+        details: "White wooden toy kitchen with cooking utensils for kids.",
+        image: "14.jpg"
+    },
+    {
+        id: 15,
+        category: "toy",
+        title: "Soft Cloth Baby Books Set",
+        price: 300,
+        condition: "used",
+        location: "yokohama",
+        distance: "2.0 km",
+        pickup: "Bol",
+        details: "Set of colorful tactile fabric soft books for infants.",
+        image: "15.jpg"
     },
     {
         id: 2,
         category: "toy",
-        title: "Toy Car",
+        title: "Wooden Shape Sorter Cube",
         price: 300,
         condition: "used",
         location: "yokohama",
         distance: "2.0 km",
         pickup: "Bol",
-        details: "Toy car for kids",
-        image: "02.jpg"
+        details: "Classic wooden shape sorting toy cube with colorful blocks.",
+        image: "16.jpg"
     },
     {
         id: 2,
         category: "toy",
-        title: "Toy Car",
+        title: "Mini Magnetic Doodle Boards Set",
         price: 300,
         condition: "used",
         location: "yokohama",
         distance: "2.0 km",
         pickup: "Bol",
-        details: "Toy car for kids",
-        image: "02.jpg"
+        details: "Portable small magnetic sketch pad drawing toys.",
+        image: "17.jpg"
     },
     {
         id: 2,
         category: "toy",
-        title: "Toy Car",
+        title: "Blue Magnetic Drawing Pad",
         price: 300,
         condition: "used",
         location: "yokohama",
         distance: "2.0 km",
         pickup: "Bol",
-        details: "Toy car for kids",
-        image: "02.jpg"
+        details: "Blue magnetic doodle board with pen and shape stamps.",
+        image: "18.jpg"
     },
     {
         id: 2,
         category: "toy",
-        title: "Toy Car",
+        title: "Magnetic Erasable Sketch Board",
         price: 300,
         condition: "used",
         location: "yokohama",
         distance: "2.0 km",
         pickup: "Bol",
-        details: "Toy car for kids",
-        image: "02.jpg"
+        details: "Blue and yellow erasable magnetic drawing board for kids.",
+        image: "19.jpg"
     },
     {
         id: 2,
         category: "toy",
-        title: "Toy Car",
+        title: "Mesh Baby Carrier (Beige)",
         price: 300,
         condition: "used",
         location: "yokohama",
         distance: "2.0 km",
         pickup: "Bol",
-        details: "Toy car for kids",
-        image: "02.jpg"
+        details: "Beige breathable mesh baby carrier wrap.",
+        image: "20.jpg"
+    },
+    {
+        id: 21,
+        category: "toy",
+        title: "Toy Story Figures Set",
+        price: 300,
+        condition: "used",
+        location: "yokohama",
+        distance: "2.0 km",
+        pickup: "Bol",
+        details: "Assorted Toy Story action figures including Woody, Buzz, and Lotso.",
+        image: "21.jpg"
+    },
+    {
+        id: 22,
+        category: "toy",
+        title: "Lotso Bear Plush Toy",
+        price: 300,
+        condition: "used",
+        location: "yokohama",
+        distance: "2.0 km",
+        pickup: "Bol",
+        details: "Pink Lotso strawberry bear stuffed plush toy.",
+        image: "22.jpg"
     },
     {
         id: 2,
         category: "toy",
-        title: "Toy Car",
+        title: "Mini O起き上がりこぼし Toys Set",
         price: 300,
         condition: "used",
         location: "yokohama",
         distance: "2.0 km",
         pickup: "Bol",
-        details: "Toy car for kids",
-        image: "02.jpg"
+        details: "Set of colorful mini roly-poly wobbler toys for babies.",
+        image: "23.jpg"
     },
     {
         id: 2,
         category: "toy",
-        title: "Toy Car",
+        title: "Black Compact Baby Stroller",
         price: 300,
         condition: "used",
         location: "yokohama",
         distance: "2.0 km",
         pickup: "Bol",
-        details: "Toy car for kids",
-        image: "02.jpg"
+        details: "Sleek black lightweight foldable baby stroller.",
+        image: "24.jpg"
     },
     {
         id: 2,
         category: "toy",
-        title: "Toy Car",
+        title: "Modern Dark Grey Stroller",
         price: 300,
         condition: "used",
         location: "yokohama",
         distance: "2.0 km",
         pickup: "Bol",
-        details: "Toy car for kids",
-        image: "02.jpg"
+        details: "Dark grey baby stroller with leather handle grip.",
+        image: "25.jpg"
     },
     {
         id: 2,
         category: "toy",
-        title: "Toy Car",
+        title: "Pink Baby Carrier",
         price: 300,
         condition: "used",
         location: "yokohama",
         distance: "2.0 km",
         pickup: "Bol",
-        details: "Toy car for kids",
-        image: "02.jpg"
+        details: "Ergonomic dusty pink baby carrier wrap with pocket.",
+        image: "26.jpg"
     },
     {
         id: 2,
         category: "toy",
-        title: "Toy Car",
+        title: "Wooden Crib Mobile",
         price: 300,
         condition: "used",
         location: "yokohama",
         distance: "2.0 km",
         pickup: "Bol",
-        details: "Toy car for kids",
-        image: "02.jpg"
+        details: "Handmade wooden hanging mobile for baby crib.",
+        image: "27.jpg"
     },
     {
         id: 2,
         category: "toy",
-        title: "Toy Car",
+        title: "Baby Care Essentials Set",
         price: 300,
         condition: "used",
         location: "yokohama",
         distance: "2.0 km",
         pickup: "Bol",
-        details: "Toy car for kids",
-        image: "02.jpg"
+        details: "Baby teddy bear, feeding bottle, and diaper care set.",
+        image: "28.jpg"
     },
     {
         id: 2,
         category: "toy",
-        title: "Toy Car",
+        title: "Teddy Bear and Blocks Set",
         price: 300,
         condition: "used",
         location: "yokohama",
         distance: "2.0 km",
         pickup: "Bol",
-        details: "Toy car for kids",
-        image: "02.jpg"
+        details: "Plush teddy bear surrounded by colorful building blocks and toys.",
+        image: "29.jpg"
     },
     {
-        id: 2,
+        id: 30,
         category: "toy",
-        title: "Toy Car",
+        title: "Colorful Toy Blocks & Animal Set",
         price: 300,
         condition: "used",
         location: "yokohama",
         distance: "2.0 km",
         pickup: "Bol",
-        details: "Toy car for kids",
-        image: "02.jpg"
-    },
-    {
-        id: 2,
-        category: "toy",
-        title: "Toy Car",
-        price: 300,
-        condition: "used",
-        location: "yokohama",
-        distance: "2.0 km",
-        pickup: "Bol",
-        details: "Toy car for kids",
-        image: "02.jpg"
-    },
-    {
-        id: 2,
-        category: "toy",
-        title: "Toy Car",
-        price: 300,
-        condition: "used",
-        location: "yokohama",
-        distance: "2.0 km",
-        pickup: "Bol",
-        details: "Toy car for kids",
-        image: "02.jpg"
-    },
-    {
-        id: 2,
-        category: "toy",
-        title: "Toy Car",
-        price: 300,
-        condition: "used",
-        location: "yokohama",
-        distance: "2.0 km",
-        pickup: "Bol",
-        details: "Toy car for kids",
-        image: "02.jpg"
-    },
-    {
-        id: 2,
-        category: "toy",
-        title: "Toy Car",
-        price: 300,
-        condition: "used",
-        location: "yokohama",
-        distance: "2.0 km",
-        pickup: "Bol",
-        details: "Toy car for kids",
-        image: "02.jpg"
+        details: "Assorted colorful building bricks, toy cars, and plastic animal figures.",
+        image: "30.jpg"
     },
 
     {
-        id: 3,
+        id: 31,
         category: "toy",
         title: "Baby Stroller",
         price: 1500,
@@ -371,6 +371,6 @@ const toysProducts = [
         distance: "3.0 km",
         pickup: "Bol",
         details: "Baby stroller in good condition",
-        image: "03.jpg"
+        image: "31.jpg"
     }
 ];
