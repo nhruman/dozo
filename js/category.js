@@ -1,50 +1,66 @@
-// ============================================================
+// ===========================================
 // Mottainai Connect - Category Page
-// ------------------------------------------------------------
-// URL থেকে category নিয়ে সেই category-এর products দেখায়
-// ============================================================
+// ===========================================
 
-
-// URL থেকে category নেওয়া
+// URL থেকে Category নেওয়া
 const params = new URLSearchParams(window.location.search);
-const category = params.get("c");
+const category = params.get("c") || "electronics";
 
-
-// Category-এর নাম
+// Category Names
 const categoryNames = {
     electronics: "Electronics & Gadgets",
     clothing: "Clothing & Accessories",
     books: "Books & Educational Materials",
     household: "Household & Kitchenware",
-    toys: "Toys & Baby Gear",
+    toy: "Toys & Baby Gear",
     furniture: "Home Decor & Furniture",
     bedding: "Bedding & Home Textiles",
     sports: "Sports & Fitness Gear",
     hobby: "Hobby & Craft Supplies",
-    gardening: "Indoor Plants & Gardening Items"
+    indoor: "Indoor Plants & Gardening Items"
 };
 
+// Product Data
+const categoryProducts = {
+    electronics: typeof products !== "undefined" ? products : [],
+    clothing: typeof clothingProducts !== "undefined" ? clothingProducts : [],
+    books: typeof booksProducts !== "undefined" ? booksProducts : [],
+    household: typeof householdProducts !== "undefined" ? householdProducts : [],
+    toy: typeof toysProducts !== "undefined" ? toysProducts : [],
+    furniture: typeof furnitureProducts !== "undefined" ? furnitureProducts : [],
+    bedding: typeof beddingProducts !== "undefined" ? beddingProducts : [],
+    sports: typeof sportsProducts !== "undefined" ? sportsProducts : [],
+    hobby: typeof hobbyProducts !== "undefined" ? hobbyProducts : [],
+    indoor: typeof indoorProducts !== "undefined" ? indoorProducts : []
+};
 
-// Page-এর element
+// Elements
 const categoryTitle = document.getElementById("category-title");
 const productGrid = document.getElementById("product-grid");
 
-
-// Category title পরিবর্তন
-if (categoryNames[category]) {
-    categoryTitle.textContent = categoryNames[category];
+// Category Title
+if (categoryTitle) {
+    categoryTitle.textContent =
+        categoryNames[category] || "Products";
 }
 
+// Filter Products
+const filteredProducts = (categoryProducts[category] || [])
+    .filter(product => product.category === category);
 
-// এই category-এর products খুঁজে বের করা
-const filteredProducts = products.filter(
-    product => product.category === category
-);
+// Display Products
+if (productGrid) {
 
+    if (filteredProducts.length > 0) {
 
-// Product card তৈরি করা
-filteredProducts.forEach(product => {
+        productGrid.innerHTML = filteredProducts
+            .map(product => createProductCard(product))
+            .join("");
 
-    productGrid.innerHTML += createProductCard(product);
+    } else {
 
-});
+        productGrid.innerHTML = `
+            <p>このカテゴリーには商品がありません。</p>
+        `;
+    }
+}

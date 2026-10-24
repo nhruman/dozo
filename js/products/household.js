@@ -12,7 +12,7 @@ const householdProducts = [
         image: "01.jpg"
     },
     {
-        id: 1,
+        id: 2,
         category: "household",
         title: "Airtight Food Canister",
         price: 200,
@@ -24,7 +24,7 @@ const householdProducts = [
         image: "02.jpg"
     },
     {
-        id: 1,
+        id: 3,
         category: "household",
         title: "Glass Food Container Set",
         price: 0,
@@ -36,7 +36,7 @@ const householdProducts = [
         image: "03.jpg"
     },
     {
-        id: 1,
+        id: 4,
         category: "household",
         title: "Water Bottle / Thermos",
         price: 200,
@@ -48,7 +48,7 @@ const householdProducts = [
         image: "04.jpg"
     },
     {
-        id: 1,
+        id: 5,
         category: "household",
         title: "White Storage Organizer Tray",
         price: 200,
@@ -60,7 +60,7 @@ const householdProducts = [
         image: "05.jpg"
     },
     {
-        id: 1,
+        id: 6,
         category: "household",
         title: "Glass Pot Lid",
         price: 200,
@@ -72,7 +72,7 @@ const householdProducts = [
         image: "06.jpg"
     },
     {
-        id: 1,
+        id: 7,
         category: "household",
         title: "Standing Pan Lid",
         price: 0,
@@ -84,7 +84,7 @@ const householdProducts = [
         image: "07.jpg"
     },
     {
-        id: 1,
+        id: 8,
         category: "household",
         title: "Stainless Steel Pressure Cooker",
         price: 200,
@@ -96,7 +96,7 @@ const householdProducts = [
         image: "08.jpg"
     },
     {
-        id: 1,
+        id: 9,
         category: "household",
         title: "Stainless Steel Kitchen Knife",
         price: 0,
@@ -108,7 +108,7 @@ const householdProducts = [
         image: "09.jpg"
     },
     {
-        id: 1,
+        id: 10,
         category: "household",
         title: "Digital Alarm Clock",
         price: 200,
@@ -132,7 +132,7 @@ const householdProducts = [
         image: "11.jpg"
     },
     {
-        id: 1,
+        id: 12,
         category: "household",
         title: "Adjustable Laptop Stand",
         price: 0,
@@ -144,7 +144,7 @@ const householdProducts = [
         image: "12.jpg"
     },
     {
-        id: 1,
+        id: 13,
         category: "household",
         title: "Clear Storage Container Box",
         price: 200,
@@ -156,7 +156,7 @@ const householdProducts = [
         image: "13.jpg"
     },
     {
-        id: 1,
+        id: 14,
         category: "household",
         title: "Plastic Storage Drawer",
         price: 0,
@@ -168,7 +168,7 @@ const householdProducts = [
         image: "14.jpg"
     },
     {
-        id: 1,
+        id: 15,
         category: "household",
         title: "Fabric Clothes Storage Bags",
         price: 200,
@@ -180,7 +180,7 @@ const householdProducts = [
         image: "15.jpg"
     },
     {
-        id: 1,
+        id: 16,
         category: "household",
         title: "White Plastic Storage Bin",
         price: 200,
@@ -192,7 +192,7 @@ const householdProducts = [
         image: "16.jpg"
     },
     {
-        id: 1,
+        id: 17,
         category: "household",
         title: "Bamboo Steamer Basket",
         price: 200,
@@ -204,7 +204,7 @@ const householdProducts = [
         image: "17.jpg"
     },
     {
-        id: 1,
+        id: 18,
         category: "household",
         title: "Stainless Steel Spatula",
         price: 200,
@@ -216,7 +216,7 @@ const householdProducts = [
         image: "18.jpg"
     },
     {
-        id: 1,
+        id: 19,
         category: "household",
         title: "Chiikawa Bento Lunch Box",
         price: 0,
@@ -228,7 +228,7 @@ const householdProducts = [
         image: "19.jpg"
     },
     {
-        id: 1,
+        id: 20,
         category: "household",
         title: "Underbed Foldable Storage Bag",
         price: 200,
@@ -252,7 +252,7 @@ const householdProducts = [
         image: "21.jpg"
     },
     {
-        id: 1,
+        id: 22,
         category: "household",
         title: "Portable Jewelry Organizer Case",
         price: 200,
@@ -264,7 +264,7 @@ const householdProducts = [
         image: "22.jpg"
     },
     {
-        id: 1,
+        id: 23,
         category: "household",
         title: "S-Shaped Metal Hanging Hooks",
         price: 200,
@@ -276,7 +276,7 @@ const householdProducts = [
         image: "23.jpg"
     },
     {
-        id: 1,
+        id: 24,
         category: "household",
         title: "Hair Curling Iron / Straightener",
         price: 0,
@@ -288,7 +288,7 @@ const householdProducts = [
         image: "24.jpg"
     },
     {
-        id: 1,
+        id: 25,
         category: "household",
         title: "T-fal Electric Kettle",
         price: 200,
@@ -300,7 +300,7 @@ const householdProducts = [
         image: "25.jpg"
     },
     {
-        id: 1,
+        id: 26,
         category: "household",
         title: "Countertop Microwave Oven",
         price: 200,
@@ -312,7 +312,7 @@ const householdProducts = [
         image: "26.jpg"
     },
     {
-        id: 1,
+        id: 27,
         category: "household",
         title: "Non-Stick Cookware Set (Blue)",
         price: 0,
@@ -323,9 +323,8 @@ const householdProducts = [
         details: "Blue non-stick pots and pans kitchen cookware set with lids.",
         image: "27.jpg"
     },
-    
     {
-        id: 1,
+        id: 28,
         category: "household",
         title: "Copper Cookware Set",
         price: 200,
@@ -337,7 +336,7 @@ const householdProducts = [
         image: "28.jpg"
     },
     {
-        id: 1,
+        id: 29,
         category: "household",
         title: "Black Hair Dryer",
         price: 200,
@@ -349,7 +348,7 @@ const householdProducts = [
         image: "29.jpg"
     },
     {
-        id: 1,
+        id: 30,
         category: "household",
         title: "Stainless Steel Vegetable Peeler",
         price: 200,
@@ -359,7 +358,5 @@ const householdProducts = [
         pickup: "Bol",
         details: "Metal Y-shaped kitchen fruit and vegetable peeler.",
         image: "30.jpg"
-    },
-
-    
+    }
 ];

@@ -71,6 +71,39 @@
     color: red;
 }
 
+/* Product Image Click */
+
+.card-image-box {
+    position: relative;
+}
+
+.product-image-link {
+    display: block;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.product-image-link:hover .product-image {
+    transform: scale(1.04);
+}
+
+.product-image {
+    transition: transform 0.3s ease;
+}
+
+.card-image-box {
+    overflow: hidden;
+}
+
+.card-image-box .badge {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    pointer-events: none;
+}
+
+
+
 @media (max-width: 1000px) {
     .product-grid {
         grid-template-columns: repeat(3, 1fr);

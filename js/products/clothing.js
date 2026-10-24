@@ -313,7 +313,7 @@ const clothingProducts = [
         image:"26.jpg"
     },
     {
-        id: 26,
+        id: 27,
         category: "clothing",
         title: "Light Grey Zip-Up Hoodie",
         price: 0,
@@ -325,7 +325,7 @@ const clothingProducts = [
         image:"27.jpg"
     },
     {
-        id: 26,
+        id: 28,
         category: "clothing",
         title: "Beige Quarter-Zip Sweater",
         price: 0,
@@ -337,7 +337,7 @@ const clothingProducts = [
         image:"28.jpg"
     },
     {
-        id: 26,
+        id: 29,
         category: "clothing",
         title: "Patchwork Oversized Sweater",
         price: 0,
@@ -349,7 +349,7 @@ const clothingProducts = [
         image:"29.jpg"
     },
     {
-        id: 26,
+        id: 30,
         category: "clothing",
         title: "Brown Cable Knit Sweater",
         price: 0,
@@ -361,7 +361,7 @@ const clothingProducts = [
         image:"30.jpg"
     },
     {
-        id: 26,
+        id: 31,
         category: "clothing",
         title: "name",
         price: 0,
@@ -373,7 +373,7 @@ const clothingProducts = [
         image:"31.jpg"
     },
     {
-        id: 26,
+        id: 32,
         category: "clothing",
         title: "name",
         price: 0,
@@ -385,7 +385,7 @@ const clothingProducts = [
         image:"31.jpg"
     },
     {
-        id: 26,
+        id: 33,
         category: "clothing",
         title: "name",
         price: 0,
@@ -397,4 +397,4 @@ const clothingProducts = [
         image:"31.jpg"
     },
 
-]
+];

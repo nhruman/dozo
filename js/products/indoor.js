@@ -120,7 +120,7 @@ const indoorProducts = [
         image: "10.jpg"
     },
     {
-        id: 4,
+        id: 11,
         category: "indoor",
         title: "Flower Pot",
         price: 0,
@@ -129,10 +129,10 @@ const indoorProducts = [
         distance: "1.5 km",
         pickup: "Bol",
         details: "Decorative flower pot",
-        image: "04.jpg"
+        image: "11.jpg"
     },
     {
-        id: 4,
+        id: 12,
         category: "indoor",
         title: "Flower Pot",
         price: 0,
@@ -141,10 +141,10 @@ const indoorProducts = [
         distance: "1.5 km",
         pickup: "Bol",
         details: "Decorative flower pot",
-        image: "04.jpg"
+        image: "12.jpg"
     },
     {
-        id: 4,
+        id: 13,
         category: "indoor",
         title: "Flower Pot",
         price: 0,
@@ -153,10 +153,10 @@ const indoorProducts = [
         distance: "1.5 km",
         pickup: "Bol",
         details: "Decorative flower pot",
-        image: "04.jpg"
+        image: "13.jpg"
     },
     {
-        id: 4,
+        id: 14,
         category: "indoor",
         title: "Flower Pot",
         price: 0,
@@ -165,10 +165,10 @@ const indoorProducts = [
         distance: "1.5 km",
         pickup: "Bol",
         details: "Decorative flower pot",
-        image: "04.jpg"
+        image: "14.jpg"
     },
     {
-        id: 4,
+        id: 15,
         category: "indoor",
         title: "Flower Pot",
         price: 0,
@@ -177,10 +177,10 @@ const indoorProducts = [
         distance: "1.5 km",
         pickup: "Bol",
         details: "Decorative flower pot",
-        image: "04.jpg"
+        image: "15.jpg"
     },
     {
-        id: 4,
+        id: 16,
         category: "indoor",
         title: "Flower Pot",
         price: 0,
@@ -189,10 +189,10 @@ const indoorProducts = [
         distance: "1.5 km",
         pickup: "Bol",
         details: "Decorative flower pot",
-        image: "04.jpg"
+        image: "16.jpg"
     },
     {
-        id: 4,
+        id: 17,
         category: "indoor",
         title: "Flower Pot",
         price: 0,
@@ -201,10 +201,10 @@ const indoorProducts = [
         distance: "1.5 km",
         pickup: "Bol",
         details: "Decorative flower pot",
-        image: "04.jpg"
+        image: "17.jpg"
     },
     {
-        id: 4,
+        id: 18,
         category: "indoor",
         title: "Flower Pot",
         price: 0,
@@ -213,10 +213,10 @@ const indoorProducts = [
         distance: "1.5 km",
         pickup: "Bol",
         details: "Decorative flower pot",
-        image: "04.jpg"
+        image: "18.jpg"
     },
     {
-        id: 4,
+        id: 19,
         category: "indoor",
         title: "Flower Pot",
         price: 0,
@@ -225,10 +225,10 @@ const indoorProducts = [
         distance: "1.5 km",
         pickup: "Bol",
         details: "Decorative flower pot",
-        image: "04.jpg"
+        image: "19.jpg"
     },
     {
-        id: 4,
+        id: 20,
         category: "indoor",
         title: "Flower Pot",
         price: 0,
@@ -237,10 +237,10 @@ const indoorProducts = [
         distance: "1.5 km",
         pickup: "Bol",
         details: "Decorative flower pot",
-        image: "04.jpg"
+        image: "20.jpg"
     },
     {
-        id: 4,
+        id: 21,
         category: "indoor",
         title: "Flower Pot",
         price: 0,
@@ -249,10 +249,10 @@ const indoorProducts = [
         distance: "1.5 km",
         pickup: "Bol",
         details: "Decorative flower pot",
-        image: "04.jpg"
+        image: "21.jpg"
     },
     {
-        id: 4,
+        id: 22,
         category: "indoor",
         title: "Flower Pot",
         price: 0,
@@ -261,10 +261,10 @@ const indoorProducts = [
         distance: "1.5 km",
         pickup: "Bol",
         details: "Decorative flower pot",
-        image: "04.jpg"
+        image: "22.jpg"
     },
     {
-        id: 4,
+        id: 23,
         category: "indoor",
         title: "Flower Pot",
         price: 0,
@@ -273,10 +273,10 @@ const indoorProducts = [
         distance: "1.5 km",
         pickup: "Bol",
         details: "Decorative flower pot",
-        image: "04.jpg"
+        image: "23.jpg"
     },
     {
-        id: 4,
+        id: 24,
         category: "indoor",
         title: "Flower Pot",
         price: 0,
@@ -285,10 +285,10 @@ const indoorProducts = [
         distance: "1.5 km",
         pickup: "Bol",
         details: "Decorative flower pot",
-        image: "04.jpg"
+        image: "24.jpg"
     },
     {
-        id: 4,
+        id: 25,
         category: "indoor",
         title: "Flower Pot",
         price: 0,
@@ -297,10 +297,10 @@ const indoorProducts = [
         distance: "1.5 km",
         pickup: "Bol",
         details: "Decorative flower pot",
-        image: "04.jpg"
+        image: "25.jpg"
     },
     {
-        id: 4,
+        id: 26,
         category: "indoor",
         title: "Flower Pot",
         price: 0,
@@ -309,10 +309,10 @@ const indoorProducts = [
         distance: "1.5 km",
         pickup: "Bol",
         details: "Decorative flower pot",
-        image: "04.jpg"
+        image: "26.jpg"
     },
     {
-        id: 5,
+        id: 27,
         category: "indoor",
         title: "Gardening Tools Set",
         price: 800,
@@ -321,6 +321,6 @@ const indoorProducts = [
         distance: "2.5 km",
         pickup: "Bol",
         details: "Gardening tools for home plants",
-        image: "05.jpeg"
+        image: "27.jpeg"
     }
 ];

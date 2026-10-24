@@ -25,7 +25,7 @@ const toysProducts = [
         image: "02.jpg"
     },
     {
-        id: 2,
+        id: 3,
         category: "toy",
         title: "Baby Feeding Bottle",
         price: 300,
@@ -37,7 +37,7 @@ const toysProducts = [
         image: "03.jpg"
     },
     {
-        id: 2,
+        id: 4,
         category: "toy",
         title: "Inflatable Baby Pool",
         price: 300,
@@ -49,7 +49,7 @@ const toysProducts = [
         image: "04.jpg"
     },
     {
-        id: 2,
+        id: 5,
         category: "toy",
         title: "Blue Baby Bath Tub",
         price: 300,
@@ -61,7 +61,7 @@ const toysProducts = [
         image: "05.jpg"
     },
     {
-        id: 2,
+        id: 6,
         category: "toy",
         title: "Smart Baby Monitor Camera",
         price: 300,
@@ -73,7 +73,7 @@ const toysProducts = [
         image: "06.jpg"
     },
     {
-        id: 2,
+        id: 7,
         category: "toy",
         title: "Wireless Baby Monitor Set",
         price: 300,
@@ -85,7 +85,7 @@ const toysProducts = [
         image: "07.jpg"
     },
     {
-        id: 2,
+        id: 8,
         category: "toy",
         title: "Flexible Mount Baby Camera",
         price: 300,
@@ -97,7 +97,7 @@ const toysProducts = [
         image: "08.jpg"
     },
     {
-        id: 2,
+        id: 9,
         category: "toy",
         title: "Indoor Safety Gate",
         price: 300,
@@ -109,7 +109,7 @@ const toysProducts = [
         image: "09.jpg"
     },
     {
-        id: 2,
+        id: 10,
         category: "toy",
         title: "Staircase Baby Safety Gate",
         price: 300,
@@ -133,7 +133,7 @@ const toysProducts = [
         image: "11.jpg"
     },
     {
-        id: 2,
+        id: 12,
         category: "toy",
         title: "Colorful Magnetic Drawing Board",
         price: 300,
@@ -145,7 +145,7 @@ const toysProducts = [
         image: "12.jpg"
     },
     {
-        id: 2,
+        id: 13,
         category: "toy",
         title: "Magnetic Alphabet Whiteboard Set",
         price: 300,
@@ -157,7 +157,7 @@ const toysProducts = [
         image: "13.jpg"
     },
     {
-        id: 2,
+        id: 14,
         category: "toy",
         title: "Wooden Play Kitchen Set",
         price: 300,
@@ -181,7 +181,7 @@ const toysProducts = [
         image: "15.jpg"
     },
     {
-        id: 2,
+        id: 16,
         category: "toy",
         title: "Wooden Shape Sorter Cube",
         price: 300,
@@ -193,7 +193,7 @@ const toysProducts = [
         image: "16.jpg"
     },
     {
-        id: 2,
+        id: 17,
         category: "toy",
         title: "Mini Magnetic Doodle Boards Set",
         price: 300,
@@ -205,7 +205,7 @@ const toysProducts = [
         image: "17.jpg"
     },
     {
-        id: 2,
+        id: 18,
         category: "toy",
         title: "Blue Magnetic Drawing Pad",
         price: 300,
@@ -217,7 +217,7 @@ const toysProducts = [
         image: "18.jpg"
     },
     {
-        id: 2,
+        id: 19,
         category: "toy",
         title: "Magnetic Erasable Sketch Board",
         price: 300,
@@ -229,7 +229,7 @@ const toysProducts = [
         image: "19.jpg"
     },
     {
-        id: 2,
+        id: 20,
         category: "toy",
         title: "Mesh Baby Carrier (Beige)",
         price: 300,
@@ -265,7 +265,7 @@ const toysProducts = [
         image: "22.jpg"
     },
     {
-        id: 2,
+        id: 23,
         category: "toy",
         title: "Mini O起き上がりこぼし Toys Set",
         price: 300,
@@ -277,7 +277,7 @@ const toysProducts = [
         image: "23.jpg"
     },
     {
-        id: 2,
+        id: 24,
         category: "toy",
         title: "Black Compact Baby Stroller",
         price: 300,
@@ -289,7 +289,7 @@ const toysProducts = [
         image: "24.jpg"
     },
     {
-        id: 2,
+        id: 25,
         category: "toy",
         title: "Modern Dark Grey Stroller",
         price: 300,
@@ -301,7 +301,7 @@ const toysProducts = [
         image: "25.jpg"
     },
     {
-        id: 2,
+        id: 26,
         category: "toy",
         title: "Pink Baby Carrier",
         price: 300,
@@ -313,7 +313,7 @@ const toysProducts = [
         image: "26.jpg"
     },
     {
-        id: 2,
+        id: 27,
         category: "toy",
         title: "Wooden Crib Mobile",
         price: 300,
@@ -325,7 +325,7 @@ const toysProducts = [
         image: "27.jpg"
     },
     {
-        id: 2,
+        id: 28,
         category: "toy",
         title: "Baby Care Essentials Set",
         price: 300,
@@ -337,7 +337,7 @@ const toysProducts = [
         image: "28.jpg"
     },
     {
-        id: 2,
+        id: 29,
         category: "toy",
         title: "Teddy Bear and Blocks Set",
         price: 300,

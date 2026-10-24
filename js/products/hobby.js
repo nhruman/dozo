@@ -120,7 +120,7 @@ const hobbyProducts = [
         image: "10.jpg"
     },
     {
-        id: 4,
+        id: 11,
         category: "hobby",
         title: "Digital Camera",
         price: 3000,
@@ -132,7 +132,7 @@ const hobbyProducts = [
         image: "04.jpg"
     },
     {
-        id: 4,
+        id: 12,
         category: "hobby",
         title: "Digital Camera",
         price: 3000,
@@ -144,7 +144,7 @@ const hobbyProducts = [
         image: "04.jpg"
     },
     {
-        id: 4,
+        id: 13,
         category: "hobby",
         title: "Digital Camera",
         price: 3000,
@@ -156,7 +156,7 @@ const hobbyProducts = [
         image: "04.jpg"
     },
     {
-        id: 4,
+        id: 14,
         category: "hobby",
         title: "Digital Camera",
         price: 3000,
@@ -168,7 +168,7 @@ const hobbyProducts = [
         image: "04.jpg"
     },
     {
-        id: 5,
+        id: 15,
         category: "hobby",
         title: "Knitting Kit",
         price: 0,

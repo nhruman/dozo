@@ -51,8 +51,9 @@ const booksProducts = [
         details: "Study guide and textbook for the IT Passport examination.",
         image: "04.jpg"
     },
+
     {
-        id: 204,
+        id: 205,
         category: "books",
         title: "Study guide and textbook for the IT Passport examination.",
         price: 300,
@@ -63,8 +64,9 @@ const booksProducts = [
         details: "SPI3 exam preparation book for Japanese job hunting.",
         image: "05.jpg"
     },
+
     {
-        id: 204,
+        id: 206,
         category: "books",
         title: "俺たちの箱根駅伝 (上) 池井戸潤",
         price: 300,
@@ -75,8 +77,9 @@ const booksProducts = [
         details: "Hakone Ekiden novel volume 1 by Jun Ikeido.",
         image: "06.jpg"
     },
+
     {
-        id: 204,
+        id: 207,
         category: "books",
         title: "ふたり (野千夜)",
         price: 300,
@@ -87,8 +90,9 @@ const booksProducts = [
         details: "Japanese illustrated novel/manga book 'Futari'.",
         image: "07.jpg"
     },
+
     {
-        id: 204,
+        id: 208,
         category: "books",
         title: "ニュース最前線 2026",
         price: 300,
@@ -99,8 +103,9 @@ const booksProducts = [
         details: "Current affairs and news summary book for 2026.",
         image: "08.jpg"
     },
+
     {
-        id: 204,
+        id: 209,
         category: "books",
         title: "センゴク権兵衛 24巻 (宮下英樹)",
         price: 300,
@@ -111,8 +116,9 @@ const booksProducts = [
         details: "Japanese historical manga Sengoku Gonbei Volume 24.",
         image: "09.jpg"
     },
+
     {
-        id: 204,
+        id: 210,
         category: "books",
         title: "君のクイズ (小川哲)",
         price: 300,
@@ -123,8 +129,9 @@ const booksProducts = [
         details: "Mystery novel 'Kimi no Quiz' by Satoshi Ogawa.",
         image: "10.jpg"
     },
+
     {
-        id: 204,
+        id: 211,
         category: "books",
         title: "傲慢と善良 (辻村深月)",
         price: 300,
@@ -135,8 +142,9 @@ const booksProducts = [
         details: "Bestselling novel 'Goman to Zenryo' by Mizuki Tsujimura.",
         image: "11.jpg"
     },
+
     {
-        id: 204,
+        id: 212,
         category: "books",
         title: "本当の自由を手に入れる お金の大学 (改訂版)",
         price: 300,
@@ -147,8 +155,9 @@ const booksProducts = [
         details: "Financial literacy book 'Okane no Daigaku' by Both Lion.",
         image: "12.jpg"
     },
+
     {
-        id: 204,
+        id: 213,
         category: "books",
         title: "クレヨンしんちゃん (漫画・本)",
         price: 300,
@@ -159,8 +168,9 @@ const booksProducts = [
         details: "Crayon Shin-chan comic/book.",
         image: "13.jpg"
     },
+
     {
-        id: 204,
+        id: 214,
         category: "books",
         title: "キングダム (Kingdom Comic)",
         price: 300,
@@ -171,8 +181,9 @@ const booksProducts = [
         details: "Kingdom manga volume by Yasuhisa Hara.",
         image: "14.jpg"
     },
+
     {
-        id: 204,
+        id: 215,
         category: "books",
         title: "ならせ（読書漫画/小説）",
         price: 300,
@@ -183,8 +194,9 @@ const booksProducts = [
         details: "Japanese novel/manga featuring a reader in a bookstore.",
         image: "15.jpg"
     },
+
     {
-        id: 204,
+        id: 216,
         category: "books",
         title: "キノベス！ 決定版",
         price: 300,
@@ -195,8 +207,9 @@ const booksProducts = [
         details: "Kinokuniya Kinobes book recommendation guide.",
         image: "16.png"
     },
+
     {
-        id: 204,
+        id: 217,
         category: "books",
         title: "Little Women",
         price: 300,
@@ -207,8 +220,9 @@ const booksProducts = [
         details: "Classic novel 'Little Women' by Louisa May Alcott (Illustrated cover).",
         image: "Little Women .jpg"
     },
+
     {
-        id: 204,
+        id: 218,
         category: "books",
         title: "Pride and Prejudice",
         price: 300,
@@ -219,8 +233,9 @@ const booksProducts = [
         details: "Penguin Classics edition of 'Pride and Prejudice' by Jane Austen.",
         image: "Pride and Prejudice.jpg"
     },
+
     {
-        id: 204,
+        id: 219,
         category: "books",
         title: "Red Rising",
         price: 300,
@@ -231,8 +246,9 @@ const booksProducts = [
         details: "Sci-Fi novel 'Red Rising' by Pierce Brown.",
         image: "Red Rising.jpg"
     },
+
     {
-        id: 204,
+        id: 220,
         category: "books",
         title: "Rich Dad Poor Dad",
         price: 300,
@@ -243,8 +259,9 @@ const booksProducts = [
         details: "Personal finance classic 'Rich Dad Poor Dad' by Robert Kiyosaki.",
         image: "20.jpg"
     },
+
     {
-        id: 204,
+        id: 221,
         category: "books",
         title: "Love, Mom",
         price: 300,
@@ -255,8 +272,9 @@ const booksProducts = [
         details: "Novel titled 'Love, Mom' with red background.",
         image: "21.jpg"
     },
+
     {
-        id: 204,
+        id: 222,
         category: "books",
         title: "The Teacher",
         price: 300,
@@ -267,8 +285,9 @@ const booksProducts = [
         details: "Thriller novel 'The Teacher' featuring a red apple.",
         image: "22.jpg"
     },
+
     {
-        id: 204,
+        id: 223,
         category: "books",
         title: "Never Lie",
         price: 300,
@@ -281,7 +300,7 @@ const booksProducts = [
     },
 
     {
-        id: 205,
+        id: 224,
         category: "books",
         title: "The Housemaid",
         price: 0,
@@ -292,8 +311,9 @@ const booksProducts = [
         details: "Mystery novel 'The Maid' by Nita Prose with red cover.",
         image: "24.jpg"
     },
+
     {
-        id: 205,
+        id: 225,
         category: "books",
         title: "Classic Portrait Cover Book (Walt Whitman)",
         price: 0,
@@ -304,8 +324,9 @@ const booksProducts = [
         details: "Classic literature book featuring a portrait cover.",
         image: "25.jpg"
     },
+
     {
-        id: 205,
+        id: 226,
         category: "books",
         title: "Ulysses (James Joyce)",
         price: 0,
@@ -316,8 +337,9 @@ const booksProducts = [
         details: "Classic novel 'Ulysses' with abstract illustration cover.",
         image: "26.jpg"
     },
+
     {
-        id: 205,
+        id: 227,
         category: "books",
         title: "Little Women",
         price: 0,
@@ -328,8 +350,9 @@ const booksProducts = [
         details: "Illustrated cover edition of 'Little Women'.",
         image: "27.jpg"
     },
+
     {
-        id: 205,
+        id: 228,
         category: "books",
         title: "Little Women",
         price: 0,
@@ -340,8 +363,9 @@ const booksProducts = [
         details: "Illustrated cover edition of 'Little Women'.",
         image: "17.jpg"
     },
+
     {
-        id: 205,
+        id: 229,
         category: "books",
         title: "The Hate U Give",
         price: 0,
@@ -354,7 +378,7 @@ const booksProducts = [
     },
 
     {
-        id: 205,
+        id: 230,
         category: "books",
         title: "The Hate U Give",
         price: 0,
@@ -367,7 +391,7 @@ const booksProducts = [
     },
 
     {
-        id: 205,
+        id: 231,
         category: "books",
         title: "The Hate U Give",
         price: 0,
@@ -378,8 +402,9 @@ const booksProducts = [
         details: "Popular YA novel 'The Hate U Give' by Angie Thomas.",
         image: "28.jpg"
     },
+
     {
-        id: 205,
+        id: 232,
         category: "books",
         title: "The Hate U Give",
         price: 0,
@@ -389,7 +414,6 @@ const booksProducts = [
         pickup: "ボランティア利用可",
         details: "Popular YA novel 'The Hate U Give' by Angie Thomas.",
         image: "31.jpeg"
-    },
-    
+    }
 
 ];

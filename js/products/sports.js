@@ -156,7 +156,7 @@ const sportsProducts = [
         image: "13.jpg"
     },
     {
-        id: 4,
+        id: 14,
         category: "sports",
         title: "Badminton Racket",
         price: 300,
@@ -165,10 +165,10 @@ const sportsProducts = [
         distance: "1.5 km",
         pickup: "Bol",
         details: "Lightweight badminton racket",
-        image: "04.jpg"
+        image: "14.jpg"
     },
     {
-        id: 4,
+        id: 15,
         category: "sports",
         title: "Badminton Racket",
         price: 300,
@@ -177,10 +177,10 @@ const sportsProducts = [
         distance: "1.5 km",
         pickup: "Bol",
         details: "Lightweight badminton racket",
-        image: "04.jpg"
+        image: "15.jpg"
     },
     {
-        id: 4,
+        id: 16,
         category: "sports",
         title: "Badminton Racket",
         price: 300,
@@ -189,10 +189,10 @@ const sportsProducts = [
         distance: "1.5 km",
         pickup: "Bol",
         details: "Lightweight badminton racket",
-        image: "04.jpg"
+        image: "16.jpg"
     },
     {
-        id: 4,
+        id: 17,
         category: "sports",
         title: "Badminton Racket",
         price: 300,
@@ -201,10 +201,10 @@ const sportsProducts = [
         distance: "1.5 km",
         pickup: "Bol",
         details: "Lightweight badminton racket",
-        image: "04.jpg"
+        image: "17.jpg"
     },
     {
-        id: 4,
+        id: 18,
         category: "sports",
         title: "Badminton Racket",
         price: 300,
@@ -213,10 +213,10 @@ const sportsProducts = [
         distance: "1.5 km",
         pickup: "Bol",
         details: "Lightweight badminton racket",
-        image: "04.jpg"
+        image: "18.jpg"
     },
     {
-        id: 4,
+        id: 19,
         category: "sports",
         title: "Badminton Racket",
         price: 300,
@@ -225,10 +225,10 @@ const sportsProducts = [
         distance: "1.5 km",
         pickup: "Bol",
         details: "Lightweight badminton racket",
-        image: "04.jpg"
+        image: "19.jpg"
     },
     {
-        id: 4,
+        id: 20,
         category: "sports",
         title: "Badminton Racket",
         price: 300,
@@ -237,10 +237,10 @@ const sportsProducts = [
         distance: "1.5 km",
         pickup: "Bol",
         details: "Lightweight badminton racket",
-        image: "04.jpg"
+        image: "20.jpg"
     },
     {
-        id: 4,
+        id: 21,
         category: "sports",
         title: "Badminton Racket",
         price: 300,
@@ -249,6 +249,6 @@ const sportsProducts = [
         distance: "1.5 km",
         pickup: "Bol",
         details: "Lightweight badminton racket",
-        image: "04.jpg"
-    },
+        image: "21.jpg"
+    }
 ];
