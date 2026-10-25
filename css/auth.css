@@ -1,0 +1,150 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f2f8f4;
+    color: #25352c;
+}
+
+.auth-container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 15px;
+}
+
+.auth-card {
+    width: 100%;
+    max-width: 430px;
+    background: #ffffff;
+    padding: 35px;
+    border-radius: 18px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
+}
+
+.auth-card h1 {
+    text-align: center;
+    color: #218c58;
+    font-size: 23px;
+}
+
+.auth-card h2 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.auth-description {
+    text-align: center;
+    color: #777;
+    margin-bottom: 25px;
+}
+
+.auth-card label {
+    display: block;
+    font-weight: 600;
+    margin: 15px 0 7px;
+}
+
+.auth-card input,
+.auth-card select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #d3dfd6;
+    border-radius: 8px;
+    font-size: 15px;
+}
+
+.auth-card input:focus,
+.auth-card select:focus {
+    outline: none;
+    border-color: #218c58;
+}
+
+.auth-card button {
+    width: 100%;
+    margin-top: 25px;
+    padding: 13px;
+    background: #218c58;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.auth-card button:hover {
+    background: #176c43;
+}
+
+.auth-card button:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+.auth-footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.auth-footer a,
+.back-home {
+    color: #218c58;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.back-home {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#register-message {
+    font-size: 14px;
+    margin-top: 15px;
+    text-align: center;
+}
+
+#login-message {
+    font-size: 14px;
+    margin-top: 15px;
+    text-align: center;
+}
+
+#profile-content {
+    margin-top: 25px;
+}
+
+#profile-content p {
+    background: #f2f8f4;
+    padding: 12px;
+    border-radius: 8px;
+    font-size: 14px;
+    overflow-wrap: anywhere;
+}
+
+#profile-content strong {
+    color: #218c58;
+}
+
+#profile-message {
+    text-align: center;
+    font-size: 14px;
+    color: #777;
+}
+
+[hidden] {
+    display: none !important;
+}
+
+@media (max-width: 480px) {
+    .auth-card {
+        padding: 25px 20px;
+    }
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>マイページ | Mottainai Connect</title>
+
+    <link rel="stylesheet" href="../css/auth.css">
+</head>
+
+<body>
+
+    <div class="auth-container">
+
+        <div class="auth-card">
+
+            <h1>🌱 Mottainai Connect</h1>
+
+            <h2>マイページ</h2>
+
+            <p class="auth-description">
+                アカウント情報
+            </p>
+
+            <div id="profile-content" hidden>
+
+                <p>
+                    <strong>お名前：</strong>
+                    <span id="user-name"></span>
+                </p>
+
+                <p>
+                    <strong>メールアドレス：</strong>
+                    <span id="user-email"></span>
+                </p>
+
+                <p>
+                    <strong>ユーザーID：</strong>
+                    <span id="user-id"></span>
+                </p>
+
+                <button id="logout-button" type="button">
+                    ログアウト
+                </button>
+
+            </div>
+
+            <p id="profile-message" role="status" aria-live="polite">
+                読み込み中...
+            </p>
+
+            <a href="../index.html" class="back-home">
+                ← ホームに戻る
+            </a>
+
+        </div>
+
+    </div>
+
+    <script type="module" src="../js/auth/profile.js"></script>
+
+</body>
+</html>

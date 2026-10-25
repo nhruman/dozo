@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>ログイン | Mottainai Connect</title>
+
+    <link rel="stylesheet" href="../css/auth.css">
+</head>
+
+<body>
+
+    <div class="auth-container">
+
+        <div class="auth-card">
+
+            <h1>🌱 Mottainai Connect</h1>
+
+            <h2>ログイン</h2>
+
+            <p class="auth-description">
+                アカウントにログインしてください
+            </p>
+
+            <form id="login-form">
+
+                <label for="email">メールアドレス</label>
+
+                <input
+                    type="email"
+                    id="email"
+                    placeholder="example@gmail.com"
+                    autocomplete="email"
+                    required
+                >
+
+                <label for="password">パスワード</label>
+
+                <input
+                    type="password"
+                    id="password"
+                    placeholder="パスワードを入力"
+                    autocomplete="current-password"
+                    required
+                >
+
+                <p id="login-message" role="status" aria-live="polite"></p>
+
+                <button type="submit" id="login-button">
+                    ログイン
+                </button>
+
+            </form>
+
+            <p class="auth-footer">
+                アカウントをお持ちでない方
+                <a href="register.html">新規登録</a>
+            </p>
+
+            <a href="../index.html" class="back-home">
+                ← ホームに戻る
+            </a>
+
+        </div>
+
+    </div>
+
+    <script type="module" src="../js/auth/auth.js"></script>
+
+</body>
+</html>

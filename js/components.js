@@ -32,8 +32,9 @@
                 <div class="nav-right">
 
                     <!-- Login -->
-                    <a href="login.html"class="nav-login"id="header-account-link"data-i18n="nav.login">
-                        <i class="fa-solid fa-user"></i>ログイン</a>
+                    <!-- Login -->
+                      <a href="auth/login.html"class="nav-login"id="header-account-link"data-i18n="nav.login">
+                      <i class="fa-solid fa-user"></i> ログイン</a>
 
 
                     <!-- Language -->
@@ -84,7 +85,7 @@
 
             <a href="give-item.html" data-i18n="nav.give">あげる／売る</a>
             <a href="receive-item.html"data-i18n="nav.receive">もらう／買う</a>
-            <a href="login.html"id="mobile-account-link"data-i18n="nav.login">ログイン</a>
+            <a href="auth/login.html"id="mobile-account-link"data-i18n="nav.login">ログイン</a>
         </div>
     </header>`;
 
@@ -120,41 +121,6 @@
       window.changeLanguage?.(button.dataset.lang),
     );
   });
-
-  // Show the current account and a logout action when a demo session exists.
-  const session = window.MottainaiStore?.getSession?.();
-  const accountLink = document.getElementById("header-account-link");
-  const mobileAccount = document.getElementById("mobile-account-link");
-  if (session) {
-    const label = session.name || session.email || session.phone || "Account";
-    if (accountLink) {
-      accountLink.href = "#";
-      accountLink.innerHTML = '<i class="fa-solid fa-user-check"></i> ' + label;
-      accountLink.addEventListener("click", (e) => {
-        e.preventDefault();
-      });
-    }
-    if (mobileAccount) {
-      mobileAccount.href = "#";
-      mobileAccount.textContent =
-        label + " · " + (window.translate?.("nav.logout") || "Logout");
-      mobileAccount.addEventListener("click", (e) => {
-        e.preventDefault();
-        MottainaiStore.clearSession();
-        location.reload();
-      });
-    }
-    const logout = document.createElement("button");
-    logout.type = "button";
-    logout.className = "header-logout";
-    logout.innerHTML =
-      '<i class="fa-solid fa-right-from-bracket"></i> <span data-i18n="nav.logout">Logout</span>';
-    logout.addEventListener("click", () => {
-      MottainaiStore.clearSession();
-      location.href = "index.html";
-    });
-    header.querySelector(".header-right")?.appendChild(logout);
-  }
 
   // Apply the saved language after the shared header has been inserted.
   window.applyLanguage?.();
