@@ -73,6 +73,6 @@ onAuthStateChanged(auth, (user) => {
     }
 
     // Update Language
-    window.applyLanguage?.();
+    // window.applyLanguage?.();
 
 });

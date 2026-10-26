@@ -37,6 +37,17 @@ const LANGUAGE_NAMES = {
 
 const translations = {
   ja: {
+        // Category Translation
+    "cat.electronics": "家電・電子機器",
+    "cat.clothing": "衣類・アクセサリー",
+    "cat.books": "本・教材",
+    "cat.household": "生活用品・キッチン用品",
+    "cat.toys": "おもちゃ・ベビー用品",
+    "cat.furniture": "家具・インテリア",
+    "cat.bedding": "寝具・ホームテキスタイル",
+    "cat.sports": "スポーツ・フィットネス用品",
+    "cat.hobby": "趣味・手芸用品",
+    "cat.gardening": "観葉植物・ガーデニング用品",
     "nav.about": "Mottainai Connectとは",
     "nav.how": "使い方",
     "nav.faq": "よくある質問",
@@ -200,6 +211,17 @@ const translations = {
 
 // Base translations: English first, then compact translations for the key UI.
 translations.en = {
+    // Category Translation
+  "cat.electronics": "Electronics & Gadgets",
+  "cat.clothing": "Clothing & Accessories",
+  "cat.books": "Books & Educational Materials",
+  "cat.household": "Household & Kitchenware",
+  "cat.toys": "Toys & Baby Gear",
+  "cat.furniture": "Home Decor & Furniture",
+  "cat.bedding": "Bedding & Home Textiles",
+  "cat.sports": "Sports & Fitness Gear",
+  "cat.hobby": "Hobby & Craft Supplies",
+  "cat.gardening": "Indoor Plants & Gardening Items",
   "nav.about": "About",
   "nav.how": "How it works",
   "nav.faq": "FAQ",

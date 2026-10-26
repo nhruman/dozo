@@ -1,16 +1,72 @@
-const language = "en";
+// Current Language
+let currentLanguage = localStorage.getItem("siteLanguage") || "en";
 
-async function loadLanguage() {
-    const response = await fetch(`js/i18n/${language}.json`);
-    const translations = await response.json();
+// Load Translation
+async function loadLanguage(language = currentLanguage) {
 
-    document.querySelectorAll("[data-i18n]").forEach(element => {
-        const key = element.getAttribute("data-i18n");
+    try {
 
-        if (translations[key]) {
-            element.textContent = translations[key];
+        const response = await fetch(`js/i18n/${language}.json`);
+
+        if (!response.ok) {
+            throw new Error(`Language file not found: ${language}`);
         }
-    });
+
+        const translations = await response.json();
+
+        document.querySelectorAll("[data-i18n]").forEach(element => {
+
+            const key = element.getAttribute("data-i18n");
+
+            // Translation থাকলেই Text পরিবর্তন করবে
+            if (Object.prototype.hasOwnProperty.call(translations, key)) {
+
+                element.textContent = translations[key];
+
+            } else {
+
+                console.warn("Translation Missing:", key);
+
+            }
+
+        });
+
+        document.documentElement.lang = language;
+
+        console.log("Language Loaded:", language);
+
+    } catch (error) {
+
+        console.error("Language Error:", error);
+
+    }
+
 }
 
-loadLanguage();
+
+// Change Language
+window.changeLanguage = function (language) {
+
+    currentLanguage = language;
+
+    localStorage.setItem("siteLanguage", language);
+
+    loadLanguage(language);
+
+};
+
+
+// Apply Saved Language
+window.applyLanguage = function () {
+
+    loadLanguage(currentLanguage);
+
+};
+
+
+// Initial Load
+document.addEventListener("DOMContentLoaded", () => {
+
+    loadLanguage(currentLanguage);
+
+});
