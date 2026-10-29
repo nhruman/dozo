@@ -1,11 +1,18 @@
 // Firebase Import
-import { auth } from "./firebase-config.js";
+import { auth, db } from "./firebase-config.js";
 
 import {
     onAuthStateChanged,
     signOut
 } from "https://www.gstatic.com/firebasejs/12.4.0/firebase-auth.js";
 
+// Firebase Firestore Functions (NEW)
+import {
+    collection,
+    query,
+    where,
+    getDocs
+} from "https://www.gstatic.com/firebasejs/12.4.0/firebase-firestore.js";
 
 // Firebase Connection Check
 console.log("Profile JS Loaded!");
@@ -39,6 +46,9 @@ onAuthStateChanged(auth, (user) => {
 
         // Loading Message Remove
         profileMessage.textContent = "";
+
+         // NEW: User Dashboard Load
+        loadDashboard(user.uid);
 
         console.log("Profile Loaded Successfully!");
 
@@ -79,3 +89,58 @@ logoutButton.addEventListener("click", async () => {
     }
 
 });
+
+// =====================================
+// User Dashboard Data
+// =====================================
+
+async function loadDashboard(userId) {
+
+    try {
+
+        // Firestore থেকে User-এর Products খুঁজবে
+        const productsRef = collection(db, "products");
+
+        const q = query(
+            productsRef,
+            where("userId", "==", userId)
+        );
+
+        const snapshot = await getDocs(q);
+
+        let totalProducts = 0;
+        let totalValue = 0;
+        let soldProducts = 0;
+        let totalSales = 0;
+
+        snapshot.forEach((doc) => {
+
+            const product = doc.data();
+
+            const price = Number(product.price) || 0;
+
+            totalProducts++;
+            totalValue += price;
+
+            if (product.status === "sold") {
+
+                soldProducts++;
+
+                totalSales += Number(product.soldPrice ?? product.price) || 0;
+
+            }
+
+        });
+
+        console.log("Total Products:", totalProducts);
+        console.log("Total Value:", totalValue);
+        console.log("Sold Products:", soldProducts);
+        console.log("Total Sales:", totalSales);
+
+    } catch (error) {
+
+        console.error("Dashboard Error:", error);
+
+    }
+
+}
