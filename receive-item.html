@@ -1,15 +1,163 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="ja">
-<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>リクエストする | Mottainai Connect</title><link rel="stylesheet" href="css/listing-forms.css"></head>
-<body><header class="topbar"><a class="brand" href="index.html">♻ Mottainai <span>Connect</span></a><nav><a href="index.html">ホーム</a><a href="give-item.html">あげる／売る</a><a href="auth/profile.html">マイページ</a></nav></header>
-<main class="shell"><div class="intro"><span class="eyebrow">FIND WHAT YOU NEED</span><h1>探しているものを、<br><em>みんなに伝えよう。</em></h1><p>必要なものと予算を投稿して、地域の人とつながりましょう。</p></div>
-<div class="layout"><section class="panel"><div class="panel-head"><span class="step">01</span><div><h2>ほしいものをリクエスト</h2><p>「*」は必須項目です</p></div></div><form id="receive-form" novalidate>
-<div class="field"><label for="request-title">探しているもの <b>*</b></label><input id="request-title" name="title" maxlength="90" required placeholder="例：炊飯器・通学用自転車"></div>
-<div class="row"><div class="field"><label for="request-category">カテゴリー <b>*</b></label><select id="request-category" required><option value="">選択してください</option><option value="electronics">家電・電子機器</option><option value="clothing">衣類</option><option value="books">本・教材</option><option value="household">日用品</option><option value="toy">おもちゃ・ベビー用品</option><option value="furniture">家具</option><option value="bedding">寝具</option><option value="sports">スポーツ</option><option value="hobby">趣味</option><option value="indoor">植物・ガーデニング</option></select></div><div class="field"><label for="request-condition">希望する状態 <b>*</b></label><select id="request-condition" required><option value="">選択してください</option><option value="any">こだわらない</option><option value="new">新品・未使用</option><option value="good">良好</option><option value="used">中古でもOK</option></select></div></div>
-<div class="field"><label for="request-location">希望エリア <b>*</b></label><input id="request-location" maxlength="100" required placeholder="例：横浜駅から5km以内"><small>自宅の住所は入力しないでください。</small></div>
-<div class="field"><label>予算の範囲（円） <b>*</b></label><div class="row"><div class="price-wrap"><span>¥</span><input id="budget-min" type="number" min="0" max="1000000" step="1" value="0" required aria-label="最低予算"></div><div class="price-wrap"><span>¥</span><input id="budget-max" type="number" min="0" max="1000000" step="1" value="5000" required aria-label="最高予算"></div></div><small>無料希望なら両方 0 にしてください。</small></div>
-<div class="field"><label for="request-note">詳しい希望 <span class="muted">（任意）</span></label><textarea id="request-note" rows="5" maxlength="1500" placeholder="サイズ、色、受け取り可能な曜日など"></textarea></div>
-<label class="check"><input id="request-agreement" type="checkbox" required><span>他の人への配慮を忘れず、正しい内容で投稿します。</span></label>
-<p id="request-message" class="message" role="status" aria-live="polite"></p><button id="request-submit" class="primary" type="submit">💚 リクエストを投稿する</button></form></section>
-<aside class="side"><div class="tip-card"><h3>🔎 探しもののヒント</h3><p>具体的な商品名・希望エリア・予算を書くと、相手に伝わりやすくなります。</p><ul><li>希望条件は柔軟に</li><li>個人の連絡先は書かない</li><li>受け渡しは安全な場所で</li></ul></div><div class="tip-card soft"><h3>📦 すでに出品されているかも？</h3><p>まずは商品一覧もチェックしてみましょう。</p><a class="secondary" href="index.html">商品を探す →</a></div></aside></div></main>
-<footer>© Mottainai Connect · みんなでつくる、やさしい循環</footer><script type="module" src="js/listings/create-request.js"></script></body></html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>もらう／買う | Mottainai Connect</title>
+  <meta name="description" content="Mottainai Connect - 近くのまだ使えるものを探して、もらう・買うことができます。">
+
+  <!-- Same icon + font setup as index.html (the shared header needs them) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@500;700;900&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+
+  <!-- Shared site styles (header only) + this page's own styles -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/navbar.css">
+  <link rel="stylesheet" href="css/receive-search.css">
+</head>
+<body class="rc-page">
+
+  <!-- Shared header: inserted by js/components.js (same as index.html) -->
+  <div id="site-header"></div>
+
+  <!-- ===== Hero ===== -->
+  <section class="rc-hero" aria-labelledby="rc-hero-title">
+    <div class="rc-container">
+      <h1 id="rc-hero-title" class="rc-hero-title">あなたの近くで、<wbr>必要なものを見つけよう。</h1>
+      <p class="rc-hero-text">まだ使えるものを、必要としている人へ。地域のみんなとつながる、やさしいリユース。</p>
+    </div>
+  </section>
+
+  <main class="rc-container rc-main">
+
+    <!-- ===== Search + filters ===== -->
+    <section class="rc-panel" aria-label="商品検索と絞り込み">
+      <form id="rc-search-form" role="search" novalidate>
+
+        <div class="rc-search-grid">
+
+          <!-- Product keyword -->
+          <div class="rc-field">
+            <label class="rc-label" for="rc-keyword">商品名で探す</label>
+            <div class="rc-bar">
+              <svg class="rc-bar-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+              <input id="rc-keyword" class="rc-bar-input" type="text" inputmode="search" enterkeyhint="search"
+                     placeholder="商品名を検索（例：iPhone、自転車、机）" autocomplete="off">
+              <button type="button" id="rc-keyword-clear" class="rc-bar-clear" aria-label="商品名の入力を消す" hidden>✕</button>
+              <button type="submit" class="rc-search-btn">検索</button>
+            </div>
+          </div>
+
+          <!-- Area (suggestions are built from the real product data) -->
+          <div class="rc-field rc-field-area" id="rc-area-field">
+            <label class="rc-label" for="rc-area">📍 エリアから探す</label>
+            <div class="rc-bar">
+              <input id="rc-area" class="rc-bar-input" type="text" autocomplete="off"
+                     placeholder="例：横浜市、新宿区、渋谷区"
+                     role="combobox" aria-autocomplete="list" aria-expanded="false" aria-controls="rc-area-list">
+              <button type="button" id="rc-area-clear" class="rc-bar-clear" aria-label="エリアの入力を消す" hidden>✕</button>
+            </div>
+            <ul id="rc-area-list" class="rc-suggest" role="listbox" aria-label="エリアの候補" hidden></ul>
+          </div>
+
+        </div>
+
+        <div class="rc-filter-grid">
+          <div class="rc-field">
+            <label class="rc-label" for="rc-category">カテゴリー</label>
+            <select id="rc-category" class="rc-select">
+              <option value="all">すべて</option>
+              <option value="electronics">家電・電子機器</option>
+              <option value="clothing">衣類・アクセサリー</option>
+              <option value="books">本・教材</option>
+              <option value="household">日用品・キッチン</option>
+              <option value="toy">おもちゃ・ベビー用品</option>
+              <option value="furniture">家具・インテリア</option>
+              <option value="bedding">寝具・ホームテキスタイル</option>
+              <option value="sports">スポーツ・フィットネス</option>
+              <option value="hobby">趣味・手芸</option>
+              <option value="indoor">観葉植物・ガーデニング</option>
+            </select>
+          </div>
+
+          <div class="rc-field">
+            <label class="rc-label" for="rc-price">価格</label>
+            <select id="rc-price" class="rc-select">
+              <option value="all">すべて</option>
+              <option value="free">無料</option>
+              <option value="1-1000">¥1–1,000</option>
+              <option value="1001-5000">¥1,000–5,000</option>
+              <option value="5001-10000">¥5,000–10,000</option>
+              <option value="10001-20000">¥10,000–20,000</option>
+              <option value="20001-max">¥20,000以上</option>
+            </select>
+          </div>
+
+          <div class="rc-field">
+            <label class="rc-label" for="rc-condition">商品の状態</label>
+            <select id="rc-condition" class="rc-select">
+              <option value="all">すべて</option>
+              <option value="new">新品・未使用</option>
+              <option value="good">良好</option>
+              <option value="used">中古</option>
+            </select>
+          </div>
+
+          <button type="button" id="rc-reset" class="rc-reset-btn">条件をクリア</button>
+        </div>
+
+        <p class="rc-note">※ エリア検索は、登録されている地名との一致で絞り込みます（距離順の表示ではありません）。</p>
+      </form>
+    </section>
+
+    <!-- ===== Results ===== -->
+    <section id="rc-results" class="rc-results" aria-labelledby="rc-results-title">
+      <div class="rc-results-head">
+        <h2 id="rc-results-title" class="rc-results-title">📦 商品を探す</h2>
+        <p id="rc-count" class="rc-count" role="status" aria-live="polite"></p>
+      </div>
+
+      <div id="rc-grid" class="rc-grid"></div>
+
+      <div id="rc-empty" class="rc-empty" hidden>
+        <p class="rc-empty-title">🔍 お探しの商品が見つかりませんでした。</p>
+        <p class="rc-empty-text">検索キーワードやエリア、条件を変更してみてください。</p>
+        <button type="button" id="rc-empty-reset" class="rc-primary-btn">すべての商品を見る</button>
+      </div>
+
+      <p id="rc-data-error" class="rc-data-error" hidden>
+        商品データを読み込めませんでした。js/products/ のファイルが正しく読み込まれているか確認してください。
+      </p>
+    </section>
+
+  </main>
+
+  <footer class="rc-footer">
+    <p>© 2026 Mottainai Connect - 卒業制作</p>
+  </footer>
+
+  <!-- ===== Scripts (order matters) ===== -->
+  <!-- 1) Shared site scripts: same order as index.html, so the header and Firebase login still work -->
+  <script src="js/lang.js"></script>
+  <script src="js/storage.js"></script>
+  <script src="js/components.js"></script>
+  <script type="module" src="js/auth/header-auth.js"></script>
+
+  <!-- 2) Existing static product data (must load BEFORE receive-search.js) -->
+  <script src="js/products/electronics.js"></script>
+  <script src="js/products/clothing.js"></script>
+  <script src="js/products/books.js"></script>
+  <script src="js/products/household.js"></script>
+  <script src="js/products/toys.js"></script>
+  <script src="js/products/furniture.js"></script>
+  <script src="js/products/bedding.js"></script>
+  <script src="js/products/sports.js"></script>
+  <script src="js/products/hobby.js"></script>
+  <script src="js/products/indoor.js"></script>
+
+  <!-- 3) This page's search logic -->
+  <script src="js/search/receive-search.js"></script>
+</body>
+</html>
